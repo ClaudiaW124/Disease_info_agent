@@ -1,0 +1,14 @@
+# @package _global_
+defaults:
+  - /model/base@model
+  - _self_
+
+agent:
+  name: PlannerAgent
+  instructions: |
+    你是一个任务规划智能体。你的唯一任务是规划，而不是执行。
+    用户会给你一个 URL 列表（每行一个 URL）。
+    对于列表中的每一个 URL，你都必须输出一条清晰、独立的任务指令。
+    每一条指令都必须遵循以下格式：
+    '任务：抓取URL [这里是URL]，并分析其中与[登革病毒, 猩红热, 裂谷热, 流感]相关的信息。'
+    不要输出任何代码、解释或无关的文字，只输出任务指令列表。

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>疾病信息智能 Agent</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface2: #243044;
+      --border: #2d3a4f;
+      --text: #e8edf4;
+      --muted: #8b9cb3;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --success: #10b981;
+      --warn: #f59e0b;
+      --danger: #ef4444;
+      --user-bg: #1e3a5f;
+      --bot-bg: #1e293b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .layout {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 3rem;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #60a5fa, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    header p { color: var(--muted); margin-top: 0.5rem; font-size: 0.95rem; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+    }
+    .stat label { font-size: 0.75rem; color: var(--muted); display: block; }
+    .stat strong { font-size: 1.1rem; margin-top: 0.15rem; display: block; }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .chip {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .chip:hover { border-color: var(--accent); background: #1e3a5f; }
+    .chat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 420px;
+    }
+    .messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+      max-height: 480px;
+    }
+    .msg {
+      max-width: 88%;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      font-size: 0.92rem;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .msg.user { align-self: flex-end; background: var(--user-bg); border-bottom-right-radius: 4px; }
+    .msg.bot { align-self: flex-start; background: var(--bot-bg); border-bottom-left-radius: 4px; }
+    .msg.system { align-self: center; background: transparent; color: var(--muted); font-size: 0.82rem; max-width: 100%; text-align: center; }
+    .msg .citations {
+      margin-top: 0.6rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    .msg .citations a { color: #60a5fa; text-decoration: none; word-break: break-all; }
+    .msg .citations a:hover { text-decoration: underline; }
+    .msg .meta { font-size: 0.72rem; color: var(--muted); margin-top: 0.4rem; }
+    .input-row {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.85rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface2);
+    }
+    .input-row input {
+      flex: 1;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.65rem 0.85rem;
+      color: var(--text);
+      font-size: 0.95rem;
+      outline: none;
+    }
+    .input-row input:focus { border-color: var(--accent); }
+    .input-row input:disabled { opacity: 0.6; }
+    button {
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.65rem 1.1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+      white-space: nowrap;
+    }
+    button:hover:not(:disabled) { background: var(--accent-hover); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    button.secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    button.secondary:hover:not(:disabled) { border-color: var(--accent); }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .footer {
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .footer a { color: #60a5fa; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      margin-left: 0.35rem;
+    }
+    .badge.ok { background: #064e3b; color: #6ee7b7; }
+    .badge.no { background: #450a0a; color: #fca5a5; }
+    .loading { display: inline-block; animation: pulse 1.2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+
+    /* Planner execution trace */
+    .trace-panel {
+      margin-bottom: 0.85rem;
+      padding: 0.75rem 0.85rem;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: 0.82rem;
+    }
+    .trace-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.65rem;
+    }
+    .trace-title {
+      font-weight: 700;
+      color: #93c5fd;
+      font-size: 0.85rem;
+    }
+    .trace-mode {
+      font-size: 0.72rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+    .trace-mode.plan { background: #1e3a5f; color: #93c5fd; }
+    .trace-mode.direct { background: #064e3b; color: #6ee7b7; }
+    .trace-phases {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.65rem;
+    }
+    .phase-chip {
+      font-size: 0.7rem;
+      padding: 0.12rem 0.45rem;
+      border-radius: 4px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .phase-chip.active { border-color: #60a5fa; color: #bfdbfe; }
+    .trace-goal { color: var(--muted); font-size: 0.78rem; margin-bottom: 0.5rem; }
+    .trace-reason { color: var(--muted); font-size: 0.75rem; margin-bottom: 0.65rem; font-style: italic; }
+    .trace-timeline { position: relative; padding-left: 0.25rem; }
+    .trace-step {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 0.65rem;
+      position: relative;
+      padding-bottom: 0.85rem;
+    }
+    .trace-step:last-child { padding-bottom: 0; }
+    .trace-step:not(:last-child)::before {
+      content: "";
+      position: absolute;
+      left: 13px;
+      top: 28px;
+      bottom: 0;
+      width: 2px;
+      background: var(--border);
+    }
+    .trace-dot {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.72rem;
+      font-weight: 700;
+      z-index: 1;
+      border: 2px solid var(--border);
+      background: var(--surface2);
+    }
+    .trace-dot.ok { border-color: var(--success); color: var(--success); background: #052e1f; }
+    .trace-dot.error { border-color: var(--danger); color: var(--danger); background: #3f0f0f; }
+    .trace-dot.pending { border-color: var(--warn); color: var(--warn); }
+    .trace-body {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.55rem 0.65rem;
+    }
+    .trace-step-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.35rem;
+    }
+    .trace-tool {
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.75rem;
+      color: #fcd34d;
+      background: #422006;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+    }
+    .trace-desc { color: var(--text); font-size: 0.8rem; }
+    .trace-summary { color: var(--muted); font-size: 0.76rem; margin-top: 0.25rem; }
+    .trace-error { color: #fca5a5; font-size: 0.76rem; margin-top: 0.25rem; }
+    .trace-args {
+      margin-top: 0.35rem;
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.7rem;
+      color: #94a3b8;
+      word-break: break-all;
+    }
+    details.trace-detail { margin-top: 0.4rem; }
+    details.trace-detail summary {
+      cursor: pointer;
+      color: #60a5fa;
+      font-size: 0.74rem;
+      user-select: none;
+    }
+    .trace-detail-body {
+      margin-top: 0.35rem;
+      padding: 0.45rem;
+      background: var(--bg);
+      border-radius: 6px;
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.68rem;
+      color: #94a3b8;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 160px;
+      overflow-y: auto;
+    }
+    .trace-direct-flow {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 0.5rem 0;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    .trace-arrow { color: #64748b; }
+    .flowchart {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem;
+      margin: 0.65rem 0;
+      padding: 0.55rem;
+      background: var(--bg);
+      border-radius: 8px;
+      border: 1px dashed var(--border);
+    }
+    .flow-node {
+      font-size: 0.72rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .flow-node.user { background: #1e3a5f; color: #bfdbfe; }
+    .flow-node.agent { background: #312e81; color: #c4b5fd; }
+    .flow-node.tool { background: #422006; color: #fcd34d; }
+    .flow-node.pipeline { background: #064e3b; color: #6ee7b7; }
+    .flow-node.output { background: #374151; color: #e5e7eb; }
+    .flow-edge { color: #64748b; font-size: 0.75rem; }
+    .rag-subtrace {
+      margin-top: 0.45rem;
+      padding: 0.4rem 0.5rem;
+      background: var(--bg);
+      border-radius: 6px;
+      border-left: 3px solid #10b981;
+    }
+    .rag-subtrace-title { font-size: 0.72rem; color: #6ee7b7; margin-bottom: 0.35rem; font-weight: 600; }
+    .rag-step {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.7rem;
+      color: var(--muted);
+      padding: 0.15rem 0;
+    }
+    .rag-step-label { color: var(--text); min-width: 4.5rem; }
+    .rag-step-raw { font-family: ui-monospace, Consolas, monospace; font-size: 0.65rem; color: #94a3b8; }
+    .trace-id { font-size: 0.7rem; color: var(--muted); margin-left: auto; }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <header>
+      <h1>疾病信息智能 Agent</h1>
+      <p>登革病毒 · 猩红热 · 裂谷热 · 流感 — Planner + Orchestrator + LangGraph RAG</p>
+    </header>
+
+    <div class="stats" id="stats">
+      <div class="stat"><label>Run ID</label><strong id="stat-run">加载中…</strong></div>
+      <div class="stat"><label>知识库文档</label><strong id="stat-docs">—</strong></div>
+      <div class="stat"><label>校验 Facts</label><strong id="stat-facts">—</strong></div>
+      <div class="stat"><label>知识库状态</label><strong id="stat-rag">—</strong></div>
+    </div>
+
+    <div class="actions">
+      <button class="secondary" id="btn-refresh">刷新状态</button>
+      <button class="secondary" id="btn-pipeline" title="后台运行，需数分钟">运行 Pipeline</button>
+      <a href="/docs" target="_blank"><button type="button" class="secondary">API 文档</button></a>
+    </div>
+
+    <div class="chips" id="chips"></div>
+
+    <div class="chat">
+      <div class="messages" id="messages">
+        <div class="msg system">输入问题，或点击上方示例。答案带来源 citation，无关问题会拒答。</div>
+      </div>
+      <div class="input-row">
+        <input id="question" type="text" placeholder="例如：登革热怎么预防？" autocomplete="off" />
+        <button id="btn-ask">提问</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Powered by Planner + Orchestrator · LangGraph RAG · FastAPI · <a href="/docs">Swagger /docs</a></p>
+    </div>
+  </div>
+
+  <script>
+    const SAMPLE_QUESTIONS = [
+      "登革热怎么预防？",
+      "先告诉我知识库有多少文档，再说明登革热怎么预防",
+      "对比登革热和流感的传播方式，并告诉我 eval pass rate",
+      "猩红热有哪些症状？",
+      "今天天气怎么样？",
+    ];
+
+    const $ = (id) => document.getElementById(id);
+    const messages = $("messages");
+    const questionInput = $("question");
+    const btnAsk = $("btn-ask");
+    let currentRunId = null;
+    let busy = false;
+
+    const TOOL_LABELS = {
+      query_disease: "RAG 问答",
+      get_latest_run: "Run 状态",
+      get_eval_report: "评测报告",
+      start_pipeline: "启动 Pipeline",
+      get_pipeline_status: "Pipeline 进度",
+    };
+
+    function renderFlowchart(flowchart) {
+      if (!flowchart || !flowchart.nodes || !flowchart.nodes.length) return "";
+      const nodeMap = Object.fromEntries(flowchart.nodes.map(n => [n.id, n]));
+      const ordered = [];
+      const seen = new Set();
+      const edges = flowchart.edges || [];
+      if (edges.length) {
+        let current = edges[0]?.source;
+        for (let i = 0; i < edges.length + 1 && current; i++) {
+          if (nodeMap[current] && !seen.has(current)) {
+            ordered.push(nodeMap[current]);
+            seen.add(current);
+          }
+          const edge = edges.find(e => e.source === current);
+          current = edge ? edge.target : null;
+        }
+      }
+      const nodes = ordered.length ? ordered : flowchart.nodes;
+      return `<div class="flowchart">${nodes.map((n, i) => {
+        const arrow = i < nodes.length - 1 ? '<span class="flow-edge">→</span>' : '';
+        return `<span class="flow-node ${escapeHtml(n.kind || "agent")}">${escapeHtml(n.label)}</span>${arrow}`;
+      }).join("")}</div>`;
+    }
+
+    function renderRagSubtrace(ragSteps) {
+      if (!ragSteps || !ragSteps.length) return "";
+      return `<div class="rag-subtrace">
+        <div class="rag-subtrace-title">LangGraph RAG 内部链路</div>
+        ${ragSteps.map(r => `<div class="rag-step">
+          <span class="rag-step-label">${escapeHtml(r.label || r.node)}</span>
+          <span class="rag-step-raw">${escapeHtml(r.raw)}</span>
+        </div>`).join("")}
+      </div>`;
+    }
+
+    function renderTracePanel(trace) {
+      if (!trace) return "";
+      const modeClass = trace.mode === "plan" ? "plan" : "direct";
+      const modeLabel = trace.mode === "plan" ? "多步计划" : "单步直连";
+      let phasesHtml = (trace.phases || []).map((p) =>
+        `<span class="phase-chip active">${escapeHtml(p)}</span>`
+      ).join("");
+
+      let bodyHtml = "";
+      if (trace.flowchart) {
+        bodyHtml += renderFlowchart(trace.flowchart);
+      } else if (trace.mode === "direct") {
+        bodyHtml += `<div class="trace-direct-flow">
+          <span class="phase-chip active">Planner</span><span class="trace-arrow">→</span>
+          <span class="phase-chip active">Orchestrator</span><span class="trace-arrow">→</span>
+          <span class="phase-chip active">RAG</span><span class="trace-arrow">→</span>
+          <span class="phase-chip active">Validate</span>
+        </div>`;
+      }
+      if (trace.steps && trace.steps.length) {
+        bodyHtml += `<div class="trace-timeline">${trace.steps.map(renderTraceStep).join("")}</div>`;
+      }
+
+      const traceIdHtml = trace.trace_id
+        ? `<span class="trace-id">trace: ${escapeHtml(trace.trace_id)}</span>`
+        : "";
+
+      return `<div class="trace-panel">
+        <div class="trace-header">
+          <span class="trace-title">Agent 执行轨迹</span>
+          <span class="trace-mode ${modeClass}">${modeLabel}</span>
+          ${traceIdHtml}
+        </div>
+        <div class="trace-phases">${phasesHtml}</div>
+        ${trace.goal ? `<div class="trace-goal">目标：${escapeHtml(trace.goal)}</div>` : ""}
+        ${trace.reason ? `<div class="trace-reason">${escapeHtml(trace.reason)}</div>` : ""}
+        ${bodyHtml}
+      </div>`;
+    }
+
+    function renderTraceStep(step) {
+      const status = step.status || "pending";
+      const icon = status === "ok" ? "✓" : status === "error" ? "✗" : "…";
+      const toolLabel = TOOL_LABELS[step.tool] || step.tool;
+      const argsStr = step.args && Object.keys(step.args).length
+        ? JSON.stringify(step.args, null, 0)
+        : "";
+      const detailStr = step.detail && Object.keys(step.detail).length
+        ? JSON.stringify(step.detail, null, 2)
+        : "";
+      return `<div class="trace-step">
+        <div class="trace-dot ${status}">${step.id}</div>
+        <div class="trace-body">
+          <div class="trace-step-head">
+            <span class="trace-tool">${escapeHtml(step.tool)}</span>
+            <span class="trace-desc">${escapeHtml(toolLabel)}${step.description ? " · " + escapeHtml(step.description) : ""}</span>
+            <span class="badge ${status === "ok" ? "ok" : status === "error" ? "no" : ""}">${icon}</span>
+          </div>
+          ${step.summary ? `<div class="trace-summary">${escapeHtml(step.summary)}</div>` : ""}
+      ${step.error ? `<div class="trace-error">${escapeHtml(step.error)}</div>` : ""}
+      ${argsStr ? `<div class="trace-args">args: ${escapeHtml(argsStr)}</div>` : ""}
+      ${renderRagSubtrace(step.rag_steps)}
+      ${detailStr ? `<details class="trace-detail"><summary>查看步骤详情 JSON</summary><div class="trace-detail-body">${escapeHtml(detailStr)}</div></details>` : ""}
+        </div>
+      </div>`;
+    }
+
+    function addMessage(text, role, extra = {}) {
+      const div = document.createElement("div");
+      div.className = `msg ${role}`;
+      let html = "";
+      if (extra.trace) {
+        html += renderTracePanel(extra.trace);
+      }
+      html += escapeHtml(text);
+      if (extra.citations && extra.citations.length) {
+        const links = extra.citations.map(u =>
+          `<a href="${escapeAttr(u)}" target="_blank" rel="noopener">${escapeHtml(u)}</a>`
+        ).join("<br>");
+        html += `<div class="citations"><strong>来源</strong><br>${links}</div>`;
+      }
+      if (extra.meta) {
+        html += `<div class="meta">${escapeHtml(extra.meta)}</div>`;
+      }
+      div.innerHTML = html;
+      messages.appendChild(div);
+      messages.scrollTop = messages.scrollHeight;
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    }
+    function escapeAttr(s) {
+      return String(s).replace(/"/g, "&quot;");
+    }
+
+    async function loadStats() {
+      try {
+        const res = await fetch("/api/runs/latest");
+        if (!res.ok) throw new Error(await res.text());
+        const data = await res.json();
+        currentRunId = data.run_id;
+        $("stat-run").textContent = data.run_id || "—";
+        $("stat-docs").textContent = data.knowledge_db_document_count ?? "—";
+        $("stat-facts").textContent = data.validated_fact_count ?? "—";
+        const ragOk = data.has_knowledge_db;
+        $("stat-rag").innerHTML = ragOk
+          ? '就绪 <span class="badge ok">RAG</span>'
+          : '未就绪 <span class="badge no">需 ingest</span>';
+        questionInput.disabled = false;
+        btnAsk.disabled = false;
+      } catch (e) {
+        $("stat-run").textContent = "无 run";
+        $("stat-rag").innerHTML = '<span class="badge no">请先运行 Pipeline</span>';
+        questionInput.disabled = true;
+        btnAsk.disabled = true;
+      }
+    }
+
+    async function askQuestion(q) {
+      if (!q.trim() || busy) return;
+      busy = true;
+      btnAsk.disabled = true;
+      questionInput.disabled = true;
+      addMessage(q, "user");
+      addMessage("Planner / Orchestrator 正在规划并执行…", "system");
+      const loading = messages.lastElementChild;
+
+      try {
+        const res = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: q }),
+        });
+        loading.remove();
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          addMessage(err.detail || `请求失败 (${res.status})`, "bot");
+          return;
+        }
+        const data = await res.json();
+        const meta = data.mode === "plan" && data.plan_steps?.length
+          ? data.plan_steps.join(" → ")
+          : data.mode === "direct"
+            ? "Orchestrator 单步执行"
+            : "";
+        addMessage(data.reply || "（无内容）", "bot", {
+          trace: data.trace || null,
+          meta: meta || undefined,
+        });
+      } catch (e) {
+        loading.remove();
+        addMessage("网络错误：" + e.message, "bot");
+      } finally {
+        busy = false;
+        questionInput.disabled = false;
+        btnAsk.disabled = false;
+        await loadStats();
+      }
+    }
+
+    async function runPipeline() {
+      if (!confirm("Pipeline 会在后台运行（抓取→抽取→校验→聚合→报告→入库），可能需要数分钟。继续？")) return;
+      addMessage("正在启动 Pipeline…", "system");
+      try {
+        const res = await fetch("/pipeline/run", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ urls_path: "urls.txt" }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          addMessage(data.detail || "启动失败", "system");
+          return;
+        }
+        addMessage(`Pipeline 已启动 run_id=${data.run_id}，正在轮询状态…`, "system");
+        pollPipeline(data.run_id);
+      } catch (e) {
+        addMessage("启动失败：" + e.message, "system");
+      }
+    }
+
+    async function pollPipeline(runId) {
+      const maxTries = 120;
+      for (let i = 0; i < maxTries; i++) {
+        await new Promise(r => setTimeout(r, 5000));
+        try {
+          const res = await fetch(`/pipeline/status/${runId}`);
+          const data = await res.json();
+          if (data.status === "completed") {
+            addMessage(`Pipeline 完成！validated=${data.result?.validated_fact_count}, docs=${data.result?.knowledge_db_document_count}`, "system");
+            await loadStats();
+            return;
+          }
+          if (data.status === "failed") {
+            addMessage("Pipeline 失败：" + (data.error || "未知错误"), "system");
+            return;
+          }
+        } catch (_) { /* retry */ }
+      }
+      addMessage("轮询超时，请手动刷新状态或查看终端日志。", "system");
+    }
+
+    $("btn-ask").addEventListener("click", () => {
+      const q = questionInput.value.trim();
+      if (q) { askQuestion(q); questionInput.value = ""; }
+    });
+    questionInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { e.preventDefault(); $("btn-ask").click(); }
+    });
+    $("btn-refresh").addEventListener("click", loadStats);
+    $("btn-pipeline").addEventListener("click", runPipeline);
+
+    const chips = $("chips");
+    SAMPLE_QUESTIONS.forEach(q => {
+      const btn = document.createElement("button");
+      btn.className = "chip";
+      btn.type = "button";
+      btn.textContent = q;
+      btn.addEventListener("click", () => askQuestion(q));
+      chips.appendChild(btn);
+    });
+
+    loadStats();
+  </script>
+</body>
+</html>

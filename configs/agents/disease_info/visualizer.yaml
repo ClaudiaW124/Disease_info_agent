@@ -1,0 +1,30 @@
+# @package _global_
+defaults:
+  - /model/base@model
+  - /tools/python_executor@toolkits.python
+  - /tools/file_edit@toolkits.file_edit
+  - _self_
+
+toolkits:
+  file_edit:
+    config:
+      workspace_root: "D:/My Documents/Desktop/Youtu-Agent/disease_info_agent/output"
+      backup_enabled: false
+      default_encoding: utf-8
+
+agent:
+  name: DiseaseInfoVisualizer
+  instructions: |
+    你是数据可视化智能体。你的任务是：
+    1. 使用Python工具读取整合后的数据文件
+    2. 生成可视化图表和报告
+    3. 保存所有输出文件到指定目录
+
+    执行步骤：
+    1. 首先使用Python代码读取aggregated_data.json文件
+    2. 分析数据结构，提取关键词、来源信息等
+    3. 生成以下文件：
+       - 词云图：disease_wordcloud.png
+       - 来源分布饼图：source_distribution.png
+       - 疾病信息统计图：disease_distribution.png
+       - 综合报告：comprehensive_report.md

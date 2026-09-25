@@ -1,0 +1,7 @@
+{
+  "description": "Pipeline quality thresholds for the latest (or specified) run.",
+  "min_validated_fact_count": 100,
+  "min_fetch_success_count": 3,
+  "min_knowledge_db_document_count": 50,
+  "expected_url_fragments": ["who.int", "nhs.uk", "wikipedia.org"]
+}

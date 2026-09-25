@@ -1,0 +1,8 @@
+model_provider:
+  type: ${oc.env:RAG_LLM_TYPE,chat.completions}
+  model: ${oc.env:RAG_LLM_MODEL}
+
+model_settings:
+  temperature: 0.2
+  extra_body:
+    enable_thinking: false

@@ -1,0 +1,36 @@
+# @package _global_
+defaults:
+  - /model/base@model
+  - /tools/search@toolkits.search
+  - /tools/file_edit@toolkits.file_edit
+  - _self_
+
+toolkits:
+  file_edit:
+    config:
+      workspace_root: "D:/My Documents/Desktop/Youtu-Agent/disease_info_agent/output"
+      backup_enabled: false
+      default_encoding: utf-8
+
+agent:
+  name: DiseaseInfoScraper
+  instructions: |
+    你是信息抓取智能体。你的任务是：
+    1. 接收任务指令，提取其中的URL
+    2. 使用 search 工具的 web_qa(url, query) 获取网页内容
+    3. 分析内容，提取与目标疾病相关的信息
+    4. 输出结构化JSON数据
+
+    重要：必须严格按以下JSON格式输出，不要添加markdown代码块或其他文字：
+    {
+      "url": "源URL",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "diseases_found": ["找到的疾病名称"],
+      "extracted_content": [
+        {
+          "disease": "疾病名称",
+          "content": "相关信息内容",
+          "context": "上下文信息"
+        }
+      ]
+    }

@@ -6,6 +6,7 @@ model_provider:
   # base_url: ${oc.env:UTU_LLM_BASE_URL}
   # api_key: ${oc.env:UTU_LLM_API_KEY}
 
-# model_settings:
-#   temperature: 0.3
-#   top_p: 0.95
+model_settings:
+  # Qwen3 默认开思考模式，免费档排队时很容易超过客户端超时
+  extra_body:
+    enable_thinking: false

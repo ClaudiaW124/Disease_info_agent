@@ -132,7 +132,7 @@ class AgentsUtils:
         openai_client = AsyncOpenAI(
             api_key=api_key,
             base_url=base_url,
-            timeout=100,
+            timeout=float(os.getenv("UTU_LLM_TIMEOUT", "300")),
         )
         if type == "chat.completions":
             return OpenAIChatCompletionsModel(model=model, openai_client=openai_client)
