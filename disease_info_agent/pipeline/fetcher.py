@@ -5,13 +5,12 @@ from __future__ import annotations
 import asyncio
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from html import unescape
 from pathlib import Path
 
 import aiohttp
 import trafilatura
-
 from models.run_context import RunContext
 from models.schemas import RawPage
 
@@ -102,7 +101,7 @@ class Fetcher:
         return html, status_code, "requests"
 
     async def fetch_one(self, url: str) -> RawPage:
-        fetched_at = datetime.now(timezone.utc)
+        fetched_at = datetime.now(UTC)
         html = ""
         status_code: int | None = None
         fetch_method = "failed"

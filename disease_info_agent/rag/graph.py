@@ -13,7 +13,6 @@ if str(_ROOT) not in sys.path:
 from langchain_core.messages import HumanMessage, SystemMessage
 from langgraph.graph import END, START, StateGraph
 from pydantic import BaseModel, Field
-
 from rag.common import (
     build_llm,
     extract_urls,

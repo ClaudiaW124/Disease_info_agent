@@ -12,12 +12,11 @@ if str(_ROOT) not in sys.path:
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
-
 from models.run_context import RunContext
 from models.schemas import ExtractedFact
 from pipeline.validator import load_facts_from_dir
@@ -124,7 +123,7 @@ class FactIngester:
 
         manifest = {
             "run_id": self.run_context.run_id,
-            "ingested_at": datetime.now(timezone.utc).isoformat(),
+            "ingested_at": datetime.now(UTC).isoformat(),
             "collection_name": COLLECTION_NAME,
             "document_count": len(documents),
             "persist_directory": str(db_dir),
@@ -186,7 +185,7 @@ class FactIngester:
 
         manifest = {
             "run_id": self.run_context.run_id,
-            "ingested_at": datetime.now(timezone.utc).isoformat(),
+            "ingested_at": datetime.now(UTC).isoformat(),
             "collection_name": COLLECTION_NAME,
             "document_count": total,
             "added_document_count": added,

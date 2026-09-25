@@ -1,0 +1,162 @@
+[
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Dengue fever is a mosquito-borne disease caused by dengue virus, prevalent in tropical and subtropical areas.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Most cases of dengue fever are either asymptomatic or manifest mild symptoms such as an uncomplicated fever (80%).",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "The characteristic symptoms of mild dengue are sudden-onset fever, headache (typically located behind the eyes), muscle and joint pains, nausea, vomiting, swollen glands and a rash.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "In severe dengue, symptoms include severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, extreme thirst, pale and cold skin, and feelings of weakness.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "Dengue virus is most frequently transmitted by the bite of mosquitos in the Aedes genus, particularly A. aegypti.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "Dengue can also be transmitted via infected blood products and through organ donation.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "Dengue fever vaccine, decreasing mosquito exposure.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "Mosquito control is the principal method of preventing dengue infection, including eliminating its habitats and using insecticides or biological control agents.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "There is no specific treatment for dengue fever; treatment is supportive and includes giving fluid either by mouth or intravenously.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "As of March 2023, dengue is endemic in more than 100 countries with cases reported in every continent with the exception of Antarctica.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue has increased in incidence in recent decades, with WHO recording a ten fold increase between 2010 and 2019 (from 500,000 to 5 million recorded cases).",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "The disease is said to be hyperendemic in areas where more than one serotype is circulating; this increases the risk of severe disease on a second or subsequent infection.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Infections are most commonly acquired in urban environments where the virus is primarily transmitted by the mosquito species Aedes aegypti.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue has continued to increase in prevalence during the 21st century, as the mosquito vector continues to expand its range.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "During 2023, more than 5 million infections were reported, with more than 5,000 dengue-related deaths.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "Supportive care, intravenous fluids, blood transfusions.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "The primary method of controlling A. aegypti is by eliminating its habitats.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "The Department of Health (DOH) in the Philippines expanded a dengue vaccination pilot program to major urban centers in 2025 and 2026 to reduce severe dengue cases.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "Two types of dengue vaccine have been approved and are commercially available: Dengvaxia and Qdenga.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "It is also advisable to treat clothing, nets and tents with 0.5% permethrin.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  }
+]

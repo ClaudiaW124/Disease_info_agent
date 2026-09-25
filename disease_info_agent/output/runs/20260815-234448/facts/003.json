@@ -1,0 +1,90 @@
+[
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "The first signs of scarlet fever can be flu-like symptoms, including a high temperature, a sore throat and swollen neck glands (a large lump on the side of your neck).",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "A rash appears 12 to 48 hours later. It looks like small, raised bumps and starts on the chest and tummy, then spreads. The rash makes your skin feel rough, like sandpaper.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "On white skin the rash looks pink or red. On brown and black skin it might be harder to see a change in colour, but you can still feel the rash and see the raised bumps.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "A white coating also appears on the tongue. This peels, leaving the tongue red, swollen and covered in little bumps (called \"strawberry tongue\").",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "The rash does not appear on the face, but the cheeks can look red. The redness may be harder to see on brown and black skin.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "Sometimes the skin peels, like sunburn, as the rash fades.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "treatment",
+    "content": "If you have scarlet fever a GP will prescribe antibiotics. These will: help you get better quicker, reduce the chance of a serious illness, such as pneumonia, make it less likely that you'll pass the infection on to someone else.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "prevention",
+    "content": "Scarlet fever is very infectious and can easily spread to other people.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "prevention",
+    "content": "Do: stay off nursery, school or work until 24 hours after you take the 1st dose of antibiotics, wash your hands often with soap and water, use tissues to trap germs from coughs or sneezes, bin used tissues as quickly as possible.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "prevention",
+    "content": "Don’t: do not share cutlery, cups, towels, clothes, bedding or baths with anyone else.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "epidemiology",
+    "content": "But cases of scarlet fever have increased in recent years.",
+    "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

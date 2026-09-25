@@ -1,0 +1,10 @@
+[
+  {
+    "disease": "猩红热",
+    "field": "general",
+    "content": "Reference #18.9877d917.1788546164.8de1d20c https://errors.edgesuite.net/18.9877d917.1788546164.8de1d20c",
+    "source_url": "https://www.cdc.gov/scarlet-fever/about/",
+    "confidence": 0.3,
+    "context": "extractor_keyword_fallback"
+  }
+]

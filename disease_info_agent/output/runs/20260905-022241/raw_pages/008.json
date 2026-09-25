@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cdc.gov/scarlet-fever/about/",
+  "text": "Reference #18.9877d917.1788546164.8de1d20c\nhttps://errors.edgesuite.net/18.9877d917.1788546164.8de1d20c",
+  "html": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;cdc&#46;gov&#47;scarlet&#45;fever&#47;about&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;9877d917&#46;1788546164&#46;8de1d20c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;9877d917&#46;1788546164&#46;8de1d20c</P>\n</BODY>\n</HTML>\n",
+  "status_code": 403,
+  "fetch_method": "aiohttp",
+  "fetched_at": "2026-09-04T18:22:43.033503Z",
+  "error": null
+}

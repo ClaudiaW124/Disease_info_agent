@@ -2,12 +2,10 @@
 
 from __future__ import annotations
 
-import re
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field
-
 from agent.plan_models import ChatResult, StepResult
+from pydantic import BaseModel, Field
 
 RAG_NODE_LABELS = {
     "guard": "库内守卫",

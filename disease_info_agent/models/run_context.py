@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from models.schemas import PipelineRun
@@ -53,7 +53,7 @@ class RunContext:
         self.ensure_dirs()
         self._pipeline_run = PipelineRun(
             run_id=self.run_id,
-            started_at=datetime.now(timezone.utc),
+            started_at=datetime.now(UTC),
             urls_file=urls_file,
             urls=urls,
             target_diseases=target_diseases,
@@ -67,7 +67,7 @@ class RunContext:
     def finish_manifest(self, stats: dict | None = None, status: str = "completed") -> None:
         if self._pipeline_run is None:
             return
-        self._pipeline_run.finished_at = datetime.now(timezone.utc)
+        self._pipeline_run.finished_at = datetime.now(UTC)
         self._pipeline_run.status = status
         if stats:
             self._pipeline_run.stats.update(stats)

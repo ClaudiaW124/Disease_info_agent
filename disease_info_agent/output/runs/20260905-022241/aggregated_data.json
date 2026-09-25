@@ -1,0 +1,2787 @@
+{
+  "generated_at": "2026-09-04T18:29:21.556490+00:00",
+  "target_diseases": [
+    "登革病毒",
+    "猩红热",
+    "裂谷热",
+    "流感"
+  ],
+  "total_sources": 15,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dengue_fever",
+    "https://en.wikipedia.org/wiki/Influenza",
+    "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "https://www.cdc.gov/dengue/about/index.html",
+    "https://www.cdc.gov/flu/about/index.html",
+    "https://www.cdc.gov/scarlet-fever/about/",
+    "https://www.nhs.uk/conditions/dengue/",
+    "https://www.nhs.uk/conditions/flu/",
+    "https://www.nhs.uk/conditions/flu/symptoms/",
+    "https://www.nhs.uk/conditions/scarlet-fever/",
+    "https://www.nhs.uk/conditions/scarlet-fever/symptoms/",
+    "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+    "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever"
+  ],
+  "profiles": [
+    {
+      "disease": "登革病毒",
+      "summary": "登革病毒是一种由蚊子传播的疾病，主要症状包括高烧、头痛、肌肉和关节疼痛、皮肤瘙痒及皮疹，严重病例可能出现腹痛、呕吐、呼吸急促、出血等症状。其传播主要通过Aedes属蚊子，尤其是A. aegypti。感染一种类型后通常对同种类型有终身免疫，但对其他类型仅短期免疫，二次感染可能增加严重并发症风险。预防措施包括避免蚊虫叮咬和清除积水，同时有疫苗可供使用。治疗以对症支持为主，严重病例需住院治疗。",
+      "key_points": [
+        "登革病毒主要通过Aedes属蚊子传播，特别是A. aegypti。",
+        "症状通常在感染后3-14天出现，包括高热、头痛、肌肉和关节疼痛、瘙痒及皮疹。",
+        "感染一种类型后通常对同种类型有终身免疫，但对其他类型仅短期免疫，二次感染可能导致严重并发症。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dengue_fever",
+        "https://www.cdc.gov/dengue/about/index.html",
+        "https://www.nhs.uk/conditions/dengue/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ],
+      "count": 51,
+      "items": [
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Symptoms typically begin 3 to 14 days after infection.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "They may include a high fever, headache, vomiting, muscle and joint pains, and a characteristic skin itching and skin rash.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Most cases of dengue fever are either asymptomatic or manifest mild symptoms such as an uncomplicated fever (80% of cases).",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "In severe dengue, symptoms include severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, extreme thirst, pale and cold skin, and feelings of weakness.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Dengue virus is most frequently transmitted by the bite of mosquitos in the Aedes genus, particularly A. aegypti.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "The virus has four confirmed serotypes; infection with one type usually gives lifelong immunity to that type, but only short-term immunity to the others.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Subsequent infection with a different type increases the risk of severe complications due to a phenomenon known as antibody-dependent enhancement (ADE).",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Dengue fever vaccine, decreasing mosquito exposure.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Mosquito control is the primary method of prevention, including eliminating open sources of water and using insecticides or biological control agents.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Supportive care, intravenous fluids, blood transfusions.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "For mild cases, treatment focuses on treating pain. Acetaminophen may be used to relieve mild fever or pain.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Severe dengue is a life-threatening emergency, requiring hospitalization and potentially intensive care.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "As of March 2023, dengue is endemic in more than 100 countries with cases reported in every continent with the exception of Antarctica.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "The Americas, Southeast Asia and the Western Pacific regions are the most seriously affected.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "WHO currently estimates that 3.9 billion people are at risk of dengue infection.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue has increased in incidence in recent decades, with WHO recording a ten fold increase between 2010 and 2019 (from 500,000 to 5 million recorded cases).",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Infections are most commonly acquired in urban environments where the virus is primarily transmitted by the mosquito species Aedes aegypti.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue is spreading from tropical and subtropical regions to the Iberian Peninsula and the southern states of the US, partly attributed to climate change.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue has continued to increase in prevalence during the 21st century as the mosquito vector continues to expand its range.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "general",
+          "content": "Reference #18.9877d917.1788546162.8de1b6f8 https://errors.edgesuite.net/18.9877d917.1788546162.8de1b6f8",
+          "source_url": "https://www.cdc.gov/dengue/about/index.html",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "You can get dengue if you're bitten by an infected mosquito. The mosquitoes that carry the dengue virus bite during the day.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue is very common in certain parts of the world. It's often found in tropical areas including: parts of Africa and Asia, Central and South America, the Caribbean, the Pacific islands, and some southern areas of North America.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "There's also a risk of getting dengue at certain times of the year (spring to autumn) in parts of southern Europe.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.85,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Dengue does not always cause symptoms. If you do have symptoms, they usually start 4 to 10 days after being bitten by an infected mosquito.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Some dengue symptoms are similar to flu. They include: a high temperature, a severe headache, pain behind your eyes, muscle and joint pain, feeling or being sick, swollen glands, and a blotchy rash made up of flat or slightly raised spots – this can affect large areas of your body.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Most people with dengue feel better in a few days. There is no treatment for dengue, but you can help ease your symptoms by: resting, drinking plenty of fluids, and taking paracetamol to help bring down your temperature and ease any pain.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Do not take anti-inflammatory painkillers like ibuprofen or aspirin. These can cause bleeding problems if you have dengue.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "If you have severe dengue, you'll need to stay in hospital until you recover.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "If you're in a country where dengue is found, the best way to prevent infection is to avoid being bitten by mosquitoes.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Do: wear long-sleeved clothing and trousers to cover your arms and legs, particularly during early morning and early evening. Use insect repellent on your skin (ideally one that contains the ingredient DEET). Close windows and doors whenever possible, or use blinds or screens. Sleep under a mosquito net treated with insecticide, including during the day.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Dengue vaccination: There is a vaccine that helps protect against dengue. It's recommended for people who have had, or might have had, dengue in the past and are travelling to a part of the world where dengue is common. Get advice from a travel clinic if you're travelling to a part of the world where dengue is common. If you need the vaccine, you'll have to pay for it privately.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Most people with dengue have mild or no symptoms and will get better in 1–2 weeks.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "If symptoms occur, they usually begin 4–10 days after infection and last for 2–7 days.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Symptoms may include: high fever (40°C/104°F), severe headache, pain behind the eyes, muscle and joint pains, nausea, vomiting, swollen glands, and rash.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Individuals who are infected for the second time are at greater risk of severe dengue.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "The symptoms of severe dengue often come after the fever has gone away and may include: severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, being very thirsty, pale and cold skin, and feeling weak.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Dengue is treated through pain management as there is no specific treatment currently.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "For people with severe dengue, hospitalization is often necessary.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "To lower your risk of getting dengue, protect yourself from mosquito bites by using clothes that cover as much of your body as possible, mosquito nets, window screens, mosquito repellents (containing DEET, Picaridin or IR3535), and coils and vaporizers.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "To prevent mosquitoes from breeding, implement environmental management and modification practices to stop mosquitoes from accessing egg-laying habitats, dispose of solid waste properly, remove artificial habitats that can hold water, cover, empty and clean domestic water storage containers on a weekly basis, and apply appropriate insecticides to water storage outdoor containers.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "The incidence of dengue has grown dramatically worldwide in recent decades, with the number of cases reported to WHO increasing from 505 430 cases in 2000 to 14.6 million in 2024.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "In 2024, more cases of dengue were recorded than ever before in a 12-month period, affecting over 100 countries on all continents.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "From January to July 2025, over 4 million cases and over 3000 deaths have been reported to WHO from 97 countries.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue is spreading to new areas, including the European and Eastern Mediterranean regions.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "The Region of the Americas contributed a significant proportion of the global burden, with over 13 million cases reported to WHO.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "There is evidence of the possibility of maternal transmission (i.e. from a pregnant mother to her baby).",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "The dengue virus is transmitted to humans through the bites of infected female mosquitoes, primarily the Aedes aegypti mosquito.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Other species within the Aedes genus can also act as vectors, but their contribution is normally secondary to Aedes aegypti.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Human-to-mosquito transmission can occur up to 2 days before someone shows symptoms of the illness, and up to 2 days after the fever has resolved.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "The mosquitoes that spread dengue are active during the day.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Currently, one vaccine (QDenga) is available and licensed in some countries. However, it is recommended only for those aged 6–16 years in high transmission settings.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        }
+      ]
+    },
+    {
+      "disease": "猩红热",
+      "summary": "猩红热是一种由细菌引起的传染病，主要症状包括喉咙痛、发热、头痛、颈部淋巴结肿大，以及特征性的皮疹。皮疹通常在发病1到2天后出现，外观粗糙，类似砂纸，可能伴随舌头红肿和突起（草莓舌）。该病可通过咳嗽、打喷嚏或接触被细菌污染的物体传播，预防方式包括勤洗手、避免与他人共用物品和隔离病人。治疗方法以抗生素为主，如青霉素V或苯唑西林。近年来猩红热病例有所增加，但并发症较为罕见。",
+      "key_points": [
+        "猩红热的主要症状包括喉咙痛、发热、头痛和颈部淋巴结肿大。",
+        "皮疹通常出现在发病1到2天后，外观粗糙，类似砂纸，可能伴随口腔内的白膜。",
+        "猩红热主要通过咳嗽、打喷嚏或接触被细菌污染的物体传播。",
+        "预防措施包括勤洗手、不共用个人物品以及生病时避免接触他人。",
+        "抗生素如青霉素V是猩红热的主要治疗方法，严重过敏者可使用第一代头孢菌素。",
+        "近年来猩红热的病例在一些国家有所增加，但其并发症较为罕见。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scarlet_fever",
+        "https://www.cdc.gov/scarlet-fever/about/",
+        "https://www.nhs.uk/conditions/scarlet-fever/",
+        "https://www.nhs.uk/conditions/scarlet-fever/symptoms/"
+      ],
+      "count": 32,
+      "items": [
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "Sore throat, fever, headaches, swollen lymph nodes in the neck, characteristic rash[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The face is flushed and the rash is red and blanching.[5]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "It typically feels like sandpaper and the tongue may be red and bumpy.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The rash usually appears one to two days later, but may appear before or up to seven days following feeling ill.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The skin may feel itchy, but is not painful.[5]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "transmission",
+          "content": "The bacteria are usually spread by people coughing or sneezing.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "transmission",
+          "content": "It can also be spread when a person touches an object that has the bacteria on it and then touches their mouth or nose.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Prevention is by frequent handwashing, not sharing personal items, and staying away from other people when sick.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "Antibiotics to combat the streptococcal infection are the mainstay of treatment for scarlet fever.[5]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "The antibiotic of choice is Penicillin V which is taken by mouth.[22]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "Benzathine penicillin G can be given as a one time intramuscular injection as another alternative if swallowing pills is not possible.[45]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "If the person is allergic to the family of antibiotics which both penicillin and amoxicillin are a part of (beta-lactam antibiotics), a first generation cephalosporin is used.[35]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "Scarlet fever occurs equally in both males and females.[16]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "Children are most commonly infected, typically between 5–15 years old.[21]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "The incidence of scarlet fever was reported to be increasing in countries including England, Wales, South Korea, Vietnam, China, and Hong Kong in the 2010s; the cause had not been established as of 2018.[69][70]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "There have been several reported outbreaks of the disease in various countries in the past decade.[50]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "general",
+          "content": "Reference #18.9877d917.1788546164.8de1d20c https://errors.edgesuite.net/18.9877d917.1788546164.8de1d20c",
+          "source_url": "https://www.cdc.gov/scarlet-fever/about/",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The first signs of scarlet fever can be flu-like symptoms, including a high temperature, a sore throat and swollen neck glands (a large lump on the side of your neck).",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "A rash appears 12 to 48 hours later. It looks like small, raised bumps and starts on the chest and tummy, then spreads. The rash makes your skin feel rough, like sandpaper.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "On white skin the rash looks pink or red. On brown and black skin it might be harder to see a change in colour, but you can still feel the rash and see the raised bumps.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "A white coating also appears on the tongue. This peels, leaving the tongue red, swollen and covered in little bumps (called \"strawberry tongue\").",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The rash does not appear on the face, but the cheeks can look red. The redness may be harder to see on brown and black skin.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "If you have scarlet fever a GP will prescribe antibiotics. These will: help you get better quicker, reduce the chance of a serious illness, such as pneumonia, make it less likely that you'll pass the infection on to someone else.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Scarlet fever is very infectious and can easily spread to other people.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: stay off nursery, school or work until 24 hours after you take the 1st dose of antibiotics.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: wash your hands often with soap and water.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: use tissues to trap germs from coughs or sneezes.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: bin used tissues as quickly as possible.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Don’t: do not share cutlery, cups, towels, clothes, bedding or baths with anyone else.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "But cases of scarlet fever have increased in recent years.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "general",
+          "content": "Complications from scarlet fever are rare. They can happen during or in the weeks after the infection, and can include: ear infection, throat abscess, sinusitis, pneumonia, meningitis, rheumatic fever.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "general",
+          "content": "Page not found If you entered a web address please check it was correct. Why not browse the NHS website homepage to find services and information? If you entered a web address please check it was correct. Why not browse the NHS website homepage to find services and information?",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/symptoms/",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        }
+      ]
+    },
+    {
+      "disease": "裂谷热",
+      "summary": "裂谷热是一种主要在非洲和阿拉伯地区爆发的病毒性疾病，通常通过蚊虫叮咬或接触受感染动物的组织传播。多数感染者无症状或仅表现出轻度流感样症状，如发热、头痛和肌肉疼痛。少数患者可能发展为严重形式，如眼部症状、脑膜脑炎或出血热，后者伴有高死亡率。该病的潜伏期为2至6天，症状通常持续4至7天。预防措施包括动物免疫、减少与动物组织的接触以及防蚊措施。",
+      "key_points": [
+        "裂谷热主要在非洲和阿拉伯地区爆发。",
+        "裂谷热主要通过蚊虫叮咬或接触受感染动物的组织传播。",
+        "大多数感染者无症状或仅出现轻度流感样症状，如发热、头痛和肌肉疼痛。",
+        "少数患者可能发展为严重形式，如眼部症状、脑膜脑炎或出血热，后者伴有高死亡率。",
+        "裂谷热的潜伏期为2至6天，症状通常持续4至7天。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+        "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever"
+      ],
+      "count": 36,
+      "items": [
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The mild symptoms may include: fever, muscle pains, and headaches which often last for up to a week.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "In humans, the virus can cause several syndromes. Usually, they have either no symptoms or only a mild illness with fever, headache, muscle pains, and liver abnormalities.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Patients who become ill usually experience fever, generalised weakness, back pain, dizziness, and weight loss at the onset of the illness.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "However, most infected individuals are asymptomatic or develop mild flu-like symptoms.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "The virus is transmitted through mosquito vectors, as well as through contact with the tissue of infected animals.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Contact with infected tissue is considered to be the main source of human infections.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "A person's chances of becoming infected can be reduced by taking measures to decrease contact with bodily fluids or tissues of infected animals and protect against mosquitoes and other bloodsucking insects.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "The use of mosquito repellents and bed nets are two effective methods.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "Prevention of the disease in humans is accomplished by vaccinating animals against the disease.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks of the disease have only occurred in Africa and Arabia.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks usually occur during periods of increased rain which increases the number of mosquitoes.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks typically occur during years of unusually heavy rainfall and flooding, which increase mosquito hatching and transmission.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "RVF outbreaks occur across sub-Saharan Africa, with outbreaks occurring elsewhere infrequently.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks are known to occur following periods of flooding or heavy rainfall, creating favorable breeding conditions for mosquito vectors.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Environmental factors such as heavy rainfall and flooding contribute to mosquito population growth and play an important role in the emergence and spread of RVF.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "The first documented outbreak was identified in Kenya in 1931, in sheep, cattle, and humans.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Most infections in human will lead to no symptoms or mild form of the disease characterized by a feverish syndrome with sudden onset of flu-like fever, muscle and joint pain and headache.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Some patients develop neck stiffness, sensitivity to light, loss of appetite and vomiting.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The symptoms of RVF usually last from 4 to 7 days, after which time the immune response becomes detectable with the appearance of antibodies and the virus disappears from the blood.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "A small percentage of patients develop a much more severe form of the disease. This usually appears as one or more of the three following syndromes: Ocular (eye) form (0.5–2% of patients): symptoms associated with the mild form of the disease are accompanied by retinal lesions.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The lesions in the eyes usually appear 1 to 3 weeks after the first symptoms. Patients report blurred or decreased vision.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The disease may resolve itself within 10 to 12 weeks. However, when the lesions occur in the macula, 50% of patients will experience a permanent loss of vision.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The onset of the meningoencephalitis form usually occurs 1 to 4 weeks after the first symptoms of RVF appear. Clinical features include intense headache, loss of memory, hallucinations, confusion, disorientation, vertigo, convulsions, lethargy and coma.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Neurological complications can appear two months or more later. While death rate in these patients is low, residual neurological deficit, which may be severe, is common.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The symptoms of this form appear 2–4 days after the onset of illness, and begin with evidence of severe liver impairment. Subsequently signs of haemorrhage then appear such as vomiting blood, passing blood in the faeces, a purpuric rash or ecchymose, bleeding from the nose or gums, menorrhagia and bleeding from venepuncture sites.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The case fatality ratio in these patients is high at approximately 50%. Death usually occurs 3 to 6 days after the onset of symptoms.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Most human infections result from direct or indirect contact with the blood or organs of infected animals.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "The virus can be transmitted to humans through the handling of animal tissue during slaughtering or butchering, assisting with animal births, conducting veterinary procedures, or from the disposal of carcasses or fetuses.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Certain occupational groups such as herders, farmers, slaughterhouse workers and veterinarians are therefore at higher risk of infection.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "There is some evidence that humans may become infected with RVF by ingesting the unpasteurized or uncooked milk of infected animals.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Human infections have also resulted from the bites of infected mosquitoes, most commonly the Aedes and Culex mosquitoes.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "The transmission of RVF virus by blood-feeding flies is also possible.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "To date, no human-to-human transmission of RVF has been documented, and no transmission of RVF to health care workers has been reported when standard infection control precautions have been implemented.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "Outbreaks of RVF in animals can be prevented by a sustained programme of preventive animal vaccination.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "Animal immunization must be implemented prior to an outbreak if an epizootic is to be prevented. Once an outbreak has occurred, animal vaccination should NOT be implemented because there is a high risk of intensifying the outbreak through the use of multi-dose vials and the re-use of needles and syringes.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        }
+      ]
+    },
+    {
+      "disease": "流感",
+      "summary": "流感是一种由流感病毒引起的急性呼吸道感染，症状从轻微到严重不等，包括发热、咳嗽、肌肉疼痛等。流感病毒通过飞沫和接触传播，尤其在冬季和拥挤环境中易扩散。治疗主要以缓解症状为主，严重情况可使用抗病毒药物。预防措施包括勤洗手、接种疫苗等，疫苗每年推荐接种以提高保护力。",
+      "key_points": [
+        "流感症状包括发热、咳嗽、肌肉疼痛等，通常突然发作。",
+        "流感病毒通过呼吸、飞沫和接触传播，传播能力强。",
+        "接种疫苗是预防流感的最佳方式，每年推荐接种。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Influenza",
+        "https://www.cdc.gov/flu/about/index.html",
+        "https://www.nhs.uk/conditions/flu/",
+        "https://www.nhs.uk/conditions/flu/symptoms/",
+        "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)"
+      ],
+      "count": 44,
+      "items": [
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Symptoms range from mild to severe and often include fever, runny nose, sore throat, muscle pain, headache, coughing, and fatigue.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "The time between exposure to the virus and development of symptoms (the incubation period) is one to four days, most commonly one to two days.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "The standard influenza symptoms typically last for two to eight days.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Diarrhea and vomiting can occur, particularly in children.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "People who are infected can transmit influenza viruses through breathing, talking, coughing, and sneezing, which spread respiratory droplets and aerosols that contain virus particles into the air.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Respiratory droplets are relatively large and travel less than two meters before falling onto nearby surfaces.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Aerosols are smaller and remain suspended in the air longer, so they take longer to settle and can travel further.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Frequent hand washing and covering one's mouth and nose when coughing and sneezing reduce transmission.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Annual vaccination can help to provide protection against influenza.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "If one's hands are contaminated, then touching one's face can cause infection.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "The disease can be treated with supportive measures and, in severe cases, with antiviral drugs such as oseltamivir.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In a typical year, five to 15 percent of the population contracts influenza.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "There are 3 to 5 million severe cases annually, with up to 650,000 respiratory-related deaths globally each year.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Influenza A virus and influenza B virus circulate in humans and cause seasonal epidemics.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In temperate regions, the number of influenza cases peaks during winter, whereas in the tropics, influenza can occur year-round.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Since the late 1800s, pandemic outbreaks of novel influenza strains have occurred every 10 to 50 years.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "general",
+          "content": "Reference #18.9877d917.1788546166.8de20273 https://errors.edgesuite.net/18.9877d917.1788546166.8de20273",
+          "source_url": "https://www.cdc.gov/flu/about/index.html",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Flu symptoms come on very quickly and can include: a sudden high temperature, an aching body, feeling tired or exhausted, a dry cough, a sore throat, a headache, difficulty sleeping, loss of appetite, diarrhoea, tummy pain, feeling sick (nausea) and being sick (vomiting) – although these are less common in adults",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Flu is spread by germs from coughs and sneezes, which can live on hands and surfaces for 24 hours",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "To reduce the risk of spreading flu: wash your hands often with warm water and soap, cover your mouth and nose with a tissue when you cough or sneeze (if you do not have a tissue, cough or sneeze into the bend of your elbow, not into your hand), bin used tissues as quickly as possible",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "If you have flu, there are some things you can do to help get better more quickly: rest and sleep, take paracetamol or ibuprofen to lower your temperature and treat aches and pains",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.85,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Do not take paracetamol and flu remedies that contain paracetamol at the same time as it's easy to take more than the recommended dose",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Antibiotics do not work for viral infections such as flu. GPs do not recommend antibiotics for flu because they will not relieve your symptoms or speed up your recovery",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Flu is very infectious and easily spreads to other people. You're more likely to give it to others in the first 5 days after getting infected",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Try to stay at home and avoid contact with other people if you have a high temperature, feel hot, cold or shivery, or do not feel well enough to do your normal activities",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.85,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Flu is offered on the NHS every year in autumn or early winter to some adults and children at higher risk of getting seriously ill from flu",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "The symptoms are similar for children, but they can also get pain in their ear, sore eyes, swollen glands and appear less active.",
+          "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Do not give aspirin to children under the age of 16.",
+          "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "A pharmacist can give treatment advice and recommend flu remedies.",
+          "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "All age groups can be affected but there are groups that are more at risk than others.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In temperate climates, seasonal epidemics occur mainly during winter, while in tropical regions, influenza may occur throughout the year, causing outbreaks more irregularly.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "The time from infection to illness, known as the incubation period, is about 2 days, but ranges from 1–4 days.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Symptoms begin 1–4 days after infection and usually last around a week.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Symptoms include: sudden onset of fever, cough (usually dry), headache, muscle and joint pain, severe malaise (feeling unwell), sore throat, runny nose.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Treatment should aim to relieve symptoms. People with the flu should rest and drink plenty of liquids. Most people will recover on their own within a week.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Vaccination is the best way to prevent influenza.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Annual vaccination is recommended for: pregnant women, children aged 6 months to 5 years, people over age 65, people with chronic medical conditions, health workers.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Seasonal influenza spreads easily, with rapid transmission in crowded areas including schools and nursing homes.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "When an infected person coughs or sneezes, droplets containing viruses (infectious droplets) are dispersed into the air and can infect persons in close proximity.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "The virus can also be spread by hands contaminated with influenza viruses.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "People with severe symptoms or other medical conditions should seek medical care.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Ninety-nine percent of deaths in children under 5 years of age with influenza-related lower respiratory tract infections are in developing countries.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Hospitalization and death due to influenza occur mainly among high-risk groups.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In industrialized countries most deaths associated with influenza occur among people aged 65 years or older.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        }
+      ]
+    }
+  ],
+  "diseases": {
+    "登革病毒": {
+      "summary": "登革病毒是一种由蚊子传播的疾病，主要症状包括高烧、头痛、肌肉和关节疼痛、皮肤瘙痒及皮疹，严重病例可能出现腹痛、呕吐、呼吸急促、出血等症状。其传播主要通过Aedes属蚊子，尤其是A. aegypti。感染一种类型后通常对同种类型有终身免疫，但对其他类型仅短期免疫，二次感染可能增加严重并发症风险。预防措施包括避免蚊虫叮咬和清除积水，同时有疫苗可供使用。治疗以对症支持为主，严重病例需住院治疗。",
+      "key_points": [
+        "登革病毒主要通过Aedes属蚊子传播，特别是A. aegypti。",
+        "症状通常在感染后3-14天出现，包括高热、头痛、肌肉和关节疼痛、瘙痒及皮疹。",
+        "感染一种类型后通常对同种类型有终身免疫，但对其他类型仅短期免疫，二次感染可能导致严重并发症。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dengue_fever",
+        "https://www.cdc.gov/dengue/about/index.html",
+        "https://www.nhs.uk/conditions/dengue/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ],
+      "count": 51,
+      "items": [
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Symptoms typically begin 3 to 14 days after infection.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "They may include a high fever, headache, vomiting, muscle and joint pains, and a characteristic skin itching and skin rash.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Most cases of dengue fever are either asymptomatic or manifest mild symptoms such as an uncomplicated fever (80% of cases).",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "In severe dengue, symptoms include severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, extreme thirst, pale and cold skin, and feelings of weakness.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Dengue virus is most frequently transmitted by the bite of mosquitos in the Aedes genus, particularly A. aegypti.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "The virus has four confirmed serotypes; infection with one type usually gives lifelong immunity to that type, but only short-term immunity to the others.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Subsequent infection with a different type increases the risk of severe complications due to a phenomenon known as antibody-dependent enhancement (ADE).",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Dengue fever vaccine, decreasing mosquito exposure.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Mosquito control is the primary method of prevention, including eliminating open sources of water and using insecticides or biological control agents.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Supportive care, intravenous fluids, blood transfusions.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "For mild cases, treatment focuses on treating pain. Acetaminophen may be used to relieve mild fever or pain.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Severe dengue is a life-threatening emergency, requiring hospitalization and potentially intensive care.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "As of March 2023, dengue is endemic in more than 100 countries with cases reported in every continent with the exception of Antarctica.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "The Americas, Southeast Asia and the Western Pacific regions are the most seriously affected.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "WHO currently estimates that 3.9 billion people are at risk of dengue infection.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue has increased in incidence in recent decades, with WHO recording a ten fold increase between 2010 and 2019 (from 500,000 to 5 million recorded cases).",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Infections are most commonly acquired in urban environments where the virus is primarily transmitted by the mosquito species Aedes aegypti.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue is spreading from tropical and subtropical regions to the Iberian Peninsula and the southern states of the US, partly attributed to climate change.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue has continued to increase in prevalence during the 21st century as the mosquito vector continues to expand its range.",
+          "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "general",
+          "content": "Reference #18.9877d917.1788546162.8de1b6f8 https://errors.edgesuite.net/18.9877d917.1788546162.8de1b6f8",
+          "source_url": "https://www.cdc.gov/dengue/about/index.html",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "You can get dengue if you're bitten by an infected mosquito. The mosquitoes that carry the dengue virus bite during the day.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue is very common in certain parts of the world. It's often found in tropical areas including: parts of Africa and Asia, Central and South America, the Caribbean, the Pacific islands, and some southern areas of North America.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "There's also a risk of getting dengue at certain times of the year (spring to autumn) in parts of southern Europe.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.85,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Dengue does not always cause symptoms. If you do have symptoms, they usually start 4 to 10 days after being bitten by an infected mosquito.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Some dengue symptoms are similar to flu. They include: a high temperature, a severe headache, pain behind your eyes, muscle and joint pain, feeling or being sick, swollen glands, and a blotchy rash made up of flat or slightly raised spots – this can affect large areas of your body.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Most people with dengue feel better in a few days. There is no treatment for dengue, but you can help ease your symptoms by: resting, drinking plenty of fluids, and taking paracetamol to help bring down your temperature and ease any pain.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Do not take anti-inflammatory painkillers like ibuprofen or aspirin. These can cause bleeding problems if you have dengue.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "If you have severe dengue, you'll need to stay in hospital until you recover.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "If you're in a country where dengue is found, the best way to prevent infection is to avoid being bitten by mosquitoes.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Do: wear long-sleeved clothing and trousers to cover your arms and legs, particularly during early morning and early evening. Use insect repellent on your skin (ideally one that contains the ingredient DEET). Close windows and doors whenever possible, or use blinds or screens. Sleep under a mosquito net treated with insecticide, including during the day.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Dengue vaccination: There is a vaccine that helps protect against dengue. It's recommended for people who have had, or might have had, dengue in the past and are travelling to a part of the world where dengue is common. Get advice from a travel clinic if you're travelling to a part of the world where dengue is common. If you need the vaccine, you'll have to pay for it privately.",
+          "source_url": "https://www.nhs.uk/conditions/dengue/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Most people with dengue have mild or no symptoms and will get better in 1–2 weeks.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "If symptoms occur, they usually begin 4–10 days after infection and last for 2–7 days.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Symptoms may include: high fever (40°C/104°F), severe headache, pain behind the eyes, muscle and joint pains, nausea, vomiting, swollen glands, and rash.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "Individuals who are infected for the second time are at greater risk of severe dengue.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "symptoms",
+          "content": "The symptoms of severe dengue often come after the fever has gone away and may include: severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, being very thirsty, pale and cold skin, and feeling weak.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "Dengue is treated through pain management as there is no specific treatment currently.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "treatment",
+          "content": "For people with severe dengue, hospitalization is often necessary.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "To lower your risk of getting dengue, protect yourself from mosquito bites by using clothes that cover as much of your body as possible, mosquito nets, window screens, mosquito repellents (containing DEET, Picaridin or IR3535), and coils and vaporizers.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "To prevent mosquitoes from breeding, implement environmental management and modification practices to stop mosquitoes from accessing egg-laying habitats, dispose of solid waste properly, remove artificial habitats that can hold water, cover, empty and clean domestic water storage containers on a weekly basis, and apply appropriate insecticides to water storage outdoor containers.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "The incidence of dengue has grown dramatically worldwide in recent decades, with the number of cases reported to WHO increasing from 505 430 cases in 2000 to 14.6 million in 2024.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "In 2024, more cases of dengue were recorded than ever before in a 12-month period, affecting over 100 countries on all continents.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "From January to July 2025, over 4 million cases and over 3000 deaths have been reported to WHO from 97 countries.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "Dengue is spreading to new areas, including the European and Eastern Mediterranean regions.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "The Region of the Americas contributed a significant proportion of the global burden, with over 13 million cases reported to WHO.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "epidemiology",
+          "content": "There is evidence of the possibility of maternal transmission (i.e. from a pregnant mother to her baby).",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "The dengue virus is transmitted to humans through the bites of infected female mosquitoes, primarily the Aedes aegypti mosquito.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Other species within the Aedes genus can also act as vectors, but their contribution is normally secondary to Aedes aegypti.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "transmission",
+          "content": "Human-to-mosquito transmission can occur up to 2 days before someone shows symptoms of the illness, and up to 2 days after the fever has resolved.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "The mosquitoes that spread dengue are active during the day.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "登革病毒",
+          "field": "prevention",
+          "content": "Currently, one vaccine (QDenga) is available and licensed in some countries. However, it is recommended only for those aged 6–16 years in high transmission settings.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        }
+      ]
+    },
+    "猩红热": {
+      "summary": "猩红热是一种由细菌引起的传染病，主要症状包括喉咙痛、发热、头痛、颈部淋巴结肿大，以及特征性的皮疹。皮疹通常在发病1到2天后出现，外观粗糙，类似砂纸，可能伴随舌头红肿和突起（草莓舌）。该病可通过咳嗽、打喷嚏或接触被细菌污染的物体传播，预防方式包括勤洗手、避免与他人共用物品和隔离病人。治疗方法以抗生素为主，如青霉素V或苯唑西林。近年来猩红热病例有所增加，但并发症较为罕见。",
+      "key_points": [
+        "猩红热的主要症状包括喉咙痛、发热、头痛和颈部淋巴结肿大。",
+        "皮疹通常出现在发病1到2天后，外观粗糙，类似砂纸，可能伴随口腔内的白膜。",
+        "猩红热主要通过咳嗽、打喷嚏或接触被细菌污染的物体传播。",
+        "预防措施包括勤洗手、不共用个人物品以及生病时避免接触他人。",
+        "抗生素如青霉素V是猩红热的主要治疗方法，严重过敏者可使用第一代头孢菌素。",
+        "近年来猩红热的病例在一些国家有所增加，但其并发症较为罕见。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scarlet_fever",
+        "https://www.cdc.gov/scarlet-fever/about/",
+        "https://www.nhs.uk/conditions/scarlet-fever/",
+        "https://www.nhs.uk/conditions/scarlet-fever/symptoms/"
+      ],
+      "count": 32,
+      "items": [
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "Sore throat, fever, headaches, swollen lymph nodes in the neck, characteristic rash[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The face is flushed and the rash is red and blanching.[5]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "It typically feels like sandpaper and the tongue may be red and bumpy.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The rash usually appears one to two days later, but may appear before or up to seven days following feeling ill.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The skin may feel itchy, but is not painful.[5]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "transmission",
+          "content": "The bacteria are usually spread by people coughing or sneezing.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "transmission",
+          "content": "It can also be spread when a person touches an object that has the bacteria on it and then touches their mouth or nose.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Prevention is by frequent handwashing, not sharing personal items, and staying away from other people when sick.[1]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "Antibiotics to combat the streptococcal infection are the mainstay of treatment for scarlet fever.[5]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "The antibiotic of choice is Penicillin V which is taken by mouth.[22]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "Benzathine penicillin G can be given as a one time intramuscular injection as another alternative if swallowing pills is not possible.[45]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "If the person is allergic to the family of antibiotics which both penicillin and amoxicillin are a part of (beta-lactam antibiotics), a first generation cephalosporin is used.[35]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "Scarlet fever occurs equally in both males and females.[16]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "Children are most commonly infected, typically between 5–15 years old.[21]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "The incidence of scarlet fever was reported to be increasing in countries including England, Wales, South Korea, Vietnam, China, and Hong Kong in the 2010s; the cause had not been established as of 2018.[69][70]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "There have been several reported outbreaks of the disease in various countries in the past decade.[50]",
+          "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "general",
+          "content": "Reference #18.9877d917.1788546164.8de1d20c https://errors.edgesuite.net/18.9877d917.1788546164.8de1d20c",
+          "source_url": "https://www.cdc.gov/scarlet-fever/about/",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The first signs of scarlet fever can be flu-like symptoms, including a high temperature, a sore throat and swollen neck glands (a large lump on the side of your neck).",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "A rash appears 12 to 48 hours later. It looks like small, raised bumps and starts on the chest and tummy, then spreads. The rash makes your skin feel rough, like sandpaper.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "On white skin the rash looks pink or red. On brown and black skin it might be harder to see a change in colour, but you can still feel the rash and see the raised bumps.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "A white coating also appears on the tongue. This peels, leaving the tongue red, swollen and covered in little bumps (called \"strawberry tongue\").",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "symptoms",
+          "content": "The rash does not appear on the face, but the cheeks can look red. The redness may be harder to see on brown and black skin.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "treatment",
+          "content": "If you have scarlet fever a GP will prescribe antibiotics. These will: help you get better quicker, reduce the chance of a serious illness, such as pneumonia, make it less likely that you'll pass the infection on to someone else.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Scarlet fever is very infectious and can easily spread to other people.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: stay off nursery, school or work until 24 hours after you take the 1st dose of antibiotics.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: wash your hands often with soap and water.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: use tissues to trap germs from coughs or sneezes.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Do: bin used tissues as quickly as possible.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "prevention",
+          "content": "Don’t: do not share cutlery, cups, towels, clothes, bedding or baths with anyone else.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "epidemiology",
+          "content": "But cases of scarlet fever have increased in recent years.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "general",
+          "content": "Complications from scarlet fever are rare. They can happen during or in the weeks after the infection, and can include: ear infection, throat abscess, sinusitis, pneumonia, meningitis, rheumatic fever.",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "猩红热",
+          "field": "general",
+          "content": "Page not found If you entered a web address please check it was correct. Why not browse the NHS website homepage to find services and information? If you entered a web address please check it was correct. Why not browse the NHS website homepage to find services and information?",
+          "source_url": "https://www.nhs.uk/conditions/scarlet-fever/symptoms/",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        }
+      ]
+    },
+    "裂谷热": {
+      "summary": "裂谷热是一种主要在非洲和阿拉伯地区爆发的病毒性疾病，通常通过蚊虫叮咬或接触受感染动物的组织传播。多数感染者无症状或仅表现出轻度流感样症状，如发热、头痛和肌肉疼痛。少数患者可能发展为严重形式，如眼部症状、脑膜脑炎或出血热，后者伴有高死亡率。该病的潜伏期为2至6天，症状通常持续4至7天。预防措施包括动物免疫、减少与动物组织的接触以及防蚊措施。",
+      "key_points": [
+        "裂谷热主要在非洲和阿拉伯地区爆发。",
+        "裂谷热主要通过蚊虫叮咬或接触受感染动物的组织传播。",
+        "大多数感染者无症状或仅出现轻度流感样症状，如发热、头痛和肌肉疼痛。",
+        "少数患者可能发展为严重形式，如眼部症状、脑膜脑炎或出血热，后者伴有高死亡率。",
+        "裂谷热的潜伏期为2至6天，症状通常持续4至7天。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+        "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever"
+      ],
+      "count": 36,
+      "items": [
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The mild symptoms may include: fever, muscle pains, and headaches which often last for up to a week.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "In humans, the virus can cause several syndromes. Usually, they have either no symptoms or only a mild illness with fever, headache, muscle pains, and liver abnormalities.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Patients who become ill usually experience fever, generalised weakness, back pain, dizziness, and weight loss at the onset of the illness.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "However, most infected individuals are asymptomatic or develop mild flu-like symptoms.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "The virus is transmitted through mosquito vectors, as well as through contact with the tissue of infected animals.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Contact with infected tissue is considered to be the main source of human infections.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "A person's chances of becoming infected can be reduced by taking measures to decrease contact with bodily fluids or tissues of infected animals and protect against mosquitoes and other bloodsucking insects.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "The use of mosquito repellents and bed nets are two effective methods.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "Prevention of the disease in humans is accomplished by vaccinating animals against the disease.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks of the disease have only occurred in Africa and Arabia.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks usually occur during periods of increased rain which increases the number of mosquitoes.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks typically occur during years of unusually heavy rainfall and flooding, which increase mosquito hatching and transmission.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "RVF outbreaks occur across sub-Saharan Africa, with outbreaks occurring elsewhere infrequently.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Outbreaks are known to occur following periods of flooding or heavy rainfall, creating favorable breeding conditions for mosquito vectors.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "Environmental factors such as heavy rainfall and flooding contribute to mosquito population growth and play an important role in the emergence and spread of RVF.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "epidemiology",
+          "content": "The first documented outbreak was identified in Kenya in 1931, in sheep, cattle, and humans.",
+          "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Most infections in human will lead to no symptoms or mild form of the disease characterized by a feverish syndrome with sudden onset of flu-like fever, muscle and joint pain and headache.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Some patients develop neck stiffness, sensitivity to light, loss of appetite and vomiting.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The symptoms of RVF usually last from 4 to 7 days, after which time the immune response becomes detectable with the appearance of antibodies and the virus disappears from the blood.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "A small percentage of patients develop a much more severe form of the disease. This usually appears as one or more of the three following syndromes: Ocular (eye) form (0.5–2% of patients): symptoms associated with the mild form of the disease are accompanied by retinal lesions.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The lesions in the eyes usually appear 1 to 3 weeks after the first symptoms. Patients report blurred or decreased vision.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The disease may resolve itself within 10 to 12 weeks. However, when the lesions occur in the macula, 50% of patients will experience a permanent loss of vision.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The onset of the meningoencephalitis form usually occurs 1 to 4 weeks after the first symptoms of RVF appear. Clinical features include intense headache, loss of memory, hallucinations, confusion, disorientation, vertigo, convulsions, lethargy and coma.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "Neurological complications can appear two months or more later. While death rate in these patients is low, residual neurological deficit, which may be severe, is common.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The symptoms of this form appear 2–4 days after the onset of illness, and begin with evidence of severe liver impairment. Subsequently signs of haemorrhage then appear such as vomiting blood, passing blood in the faeces, a purpuric rash or ecchymose, bleeding from the nose or gums, menorrhagia and bleeding from venepuncture sites.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "symptoms",
+          "content": "The case fatality ratio in these patients is high at approximately 50%. Death usually occurs 3 to 6 days after the onset of symptoms.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Most human infections result from direct or indirect contact with the blood or organs of infected animals.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "The virus can be transmitted to humans through the handling of animal tissue during slaughtering or butchering, assisting with animal births, conducting veterinary procedures, or from the disposal of carcasses or fetuses.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Certain occupational groups such as herders, farmers, slaughterhouse workers and veterinarians are therefore at higher risk of infection.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "There is some evidence that humans may become infected with RVF by ingesting the unpasteurized or uncooked milk of infected animals.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "Human infections have also resulted from the bites of infected mosquitoes, most commonly the Aedes and Culex mosquitoes.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "The transmission of RVF virus by blood-feeding flies is also possible.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "transmission",
+          "content": "To date, no human-to-human transmission of RVF has been documented, and no transmission of RVF to health care workers has been reported when standard infection control precautions have been implemented.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "Outbreaks of RVF in animals can be prevented by a sustained programme of preventive animal vaccination.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "裂谷热",
+          "field": "prevention",
+          "content": "Animal immunization must be implemented prior to an outbreak if an epizootic is to be prevented. Once an outbreak has occurred, animal vaccination should NOT be implemented because there is a high risk of intensifying the outbreak through the use of multi-dose vials and the re-use of needles and syringes.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        }
+      ]
+    },
+    "流感": {
+      "summary": "流感是一种由流感病毒引起的急性呼吸道感染，症状从轻微到严重不等，包括发热、咳嗽、肌肉疼痛等。流感病毒通过飞沫和接触传播，尤其在冬季和拥挤环境中易扩散。治疗主要以缓解症状为主，严重情况可使用抗病毒药物。预防措施包括勤洗手、接种疫苗等，疫苗每年推荐接种以提高保护力。",
+      "key_points": [
+        "流感症状包括发热、咳嗽、肌肉疼痛等，通常突然发作。",
+        "流感病毒通过呼吸、飞沫和接触传播，传播能力强。",
+        "接种疫苗是预防流感的最佳方式，每年推荐接种。"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Influenza",
+        "https://www.cdc.gov/flu/about/index.html",
+        "https://www.nhs.uk/conditions/flu/",
+        "https://www.nhs.uk/conditions/flu/symptoms/",
+        "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)"
+      ],
+      "count": 44,
+      "items": [
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Symptoms range from mild to severe and often include fever, runny nose, sore throat, muscle pain, headache, coughing, and fatigue.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "The time between exposure to the virus and development of symptoms (the incubation period) is one to four days, most commonly one to two days.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "The standard influenza symptoms typically last for two to eight days.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Diarrhea and vomiting can occur, particularly in children.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "People who are infected can transmit influenza viruses through breathing, talking, coughing, and sneezing, which spread respiratory droplets and aerosols that contain virus particles into the air.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Respiratory droplets are relatively large and travel less than two meters before falling onto nearby surfaces.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Aerosols are smaller and remain suspended in the air longer, so they take longer to settle and can travel further.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Frequent hand washing and covering one's mouth and nose when coughing and sneezing reduce transmission.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Annual vaccination can help to provide protection against influenza.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "If one's hands are contaminated, then touching one's face can cause infection.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "The disease can be treated with supportive measures and, in severe cases, with antiviral drugs such as oseltamivir.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In a typical year, five to 15 percent of the population contracts influenza.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "There are 3 to 5 million severe cases annually, with up to 650,000 respiratory-related deaths globally each year.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Influenza A virus and influenza B virus circulate in humans and cause seasonal epidemics.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In temperate regions, the number of influenza cases peaks during winter, whereas in the tropics, influenza can occur year-round.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Since the late 1800s, pandemic outbreaks of novel influenza strains have occurred every 10 to 50 years.",
+          "source_url": "https://en.wikipedia.org/wiki/Influenza",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "general",
+          "content": "Reference #18.9877d917.1788546166.8de20273 https://errors.edgesuite.net/18.9877d917.1788546166.8de20273",
+          "source_url": "https://www.cdc.gov/flu/about/index.html",
+          "confidence": 0.3,
+          "context": "extractor_keyword_fallback"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Flu symptoms come on very quickly and can include: a sudden high temperature, an aching body, feeling tired or exhausted, a dry cough, a sore throat, a headache, difficulty sleeping, loss of appetite, diarrhoea, tummy pain, feeling sick (nausea) and being sick (vomiting) – although these are less common in adults",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Flu is spread by germs from coughs and sneezes, which can live on hands and surfaces for 24 hours",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "To reduce the risk of spreading flu: wash your hands often with warm water and soap, cover your mouth and nose with a tissue when you cough or sneeze (if you do not have a tissue, cough or sneeze into the bend of your elbow, not into your hand), bin used tissues as quickly as possible",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "If you have flu, there are some things you can do to help get better more quickly: rest and sleep, take paracetamol or ibuprofen to lower your temperature and treat aches and pains",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.85,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Do not take paracetamol and flu remedies that contain paracetamol at the same time as it's easy to take more than the recommended dose",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Antibiotics do not work for viral infections such as flu. GPs do not recommend antibiotics for flu because they will not relieve your symptoms or speed up your recovery",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Flu is very infectious and easily spreads to other people. You're more likely to give it to others in the first 5 days after getting infected",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Try to stay at home and avoid contact with other people if you have a high temperature, feel hot, cold or shivery, or do not feel well enough to do your normal activities",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.85,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Flu is offered on the NHS every year in autumn or early winter to some adults and children at higher risk of getting seriously ill from flu",
+          "source_url": "https://www.nhs.uk/conditions/flu/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "The symptoms are similar for children, but they can also get pain in their ear, sore eyes, swollen glands and appear less active.",
+          "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Do not give aspirin to children under the age of 16.",
+          "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "A pharmacist can give treatment advice and recommend flu remedies.",
+          "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "All age groups can be affected but there are groups that are more at risk than others.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In temperate climates, seasonal epidemics occur mainly during winter, while in tropical regions, influenza may occur throughout the year, causing outbreaks more irregularly.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "The time from infection to illness, known as the incubation period, is about 2 days, but ranges from 1–4 days.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Symptoms begin 1–4 days after infection and usually last around a week.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "symptoms",
+          "content": "Symptoms include: sudden onset of fever, cough (usually dry), headache, muscle and joint pain, severe malaise (feeling unwell), sore throat, runny nose.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "Treatment should aim to relieve symptoms. People with the flu should rest and drink plenty of liquids. Most people will recover on their own within a week.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Vaccination is the best way to prevent influenza.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "prevention",
+          "content": "Annual vaccination is recommended for: pregnant women, children aged 6 months to 5 years, people over age 65, people with chronic medical conditions, health workers.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "Seasonal influenza spreads easily, with rapid transmission in crowded areas including schools and nursing homes.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "When an infected person coughs or sneezes, droplets containing viruses (infectious droplets) are dispersed into the air and can infect persons in close proximity.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "transmission",
+          "content": "The virus can also be spread by hands contaminated with influenza viruses.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "treatment",
+          "content": "People with severe symptoms or other medical conditions should seek medical care.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.9,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Ninety-nine percent of deaths in children under 5 years of age with influenza-related lower respiratory tract infections are in developing countries.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "Hospitalization and death due to influenza occur mainly among high-risk groups.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        },
+        {
+          "disease": "流感",
+          "field": "epidemiology",
+          "content": "In industrialized countries most deaths associated with influenza occur among people aged 65 years or older.",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "confidence": 0.95,
+          "context": "extractor_agent"
+        }
+      ]
+    }
+  }
+}

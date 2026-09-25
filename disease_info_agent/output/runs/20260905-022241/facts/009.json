@@ -1,0 +1,162 @@
+[
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Most infections in human will lead to no symptoms or mild form of the disease characterized by a feverish syndrome with sudden onset of flu-like fever, muscle and joint pain and headache.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Some patients develop neck stiffness, sensitivity to light, loss of appetite and vomiting.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The symptoms of RVF usually last from 4 to 7 days, after which time the immune response becomes detectable with the appearance of antibodies and the virus disappears from the blood.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "A small percentage of patients develop a much more severe form of the disease. This usually appears as one or more of the three following syndromes: Ocular (eye) form (0.5–2% of patients): symptoms associated with the mild form of the disease are accompanied by retinal lesions.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The lesions in the eyes usually appear 1 to 3 weeks after the first symptoms. Patients report blurred or decreased vision.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The disease may resolve itself within 10 to 12 weeks. However, when the lesions occur in the macula, 50% of patients will experience a permanent loss of vision.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The onset of the meningoencephalitis form usually occurs 1 to 4 weeks after the first symptoms of RVF appear. Clinical features include intense headache, loss of memory, hallucinations, confusion, disorientation, vertigo, convulsions, lethargy and coma.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Neurological complications can appear two months or more later. While death rate in these patients is low, residual neurological deficit, which may be severe, is common.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The symptoms of this form appear 2–4 days after the onset of illness, and begin with evidence of severe liver impairment. Subsequently signs of haemorrhage then appear such as vomiting blood, passing blood in the faeces, a purpuric rash or ecchymose, bleeding from the nose or gums, menorrhagia and bleeding from venepuncture sites.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The case fatality ratio in these patients is high at approximately 50%. Death usually occurs 3 to 6 days after the onset of symptoms.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Most human infections result from direct or indirect contact with the blood or organs of infected animals.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "The virus can be transmitted to humans through the handling of animal tissue during slaughtering or butchering, assisting with animal births, conducting veterinary procedures, or from the disposal of carcasses or fetuses.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Certain occupational groups such as herders, farmers, slaughterhouse workers and veterinarians are therefore at higher risk of infection.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "There is some evidence that humans may become infected with RVF by ingesting the unpasteurized or uncooked milk of infected animals.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Human infections have also resulted from the bites of infected mosquitoes, most commonly the Aedes and Culex mosquitoes.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "The transmission of RVF virus by blood-feeding flies is also possible.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "To date, no human-to-human transmission of RVF has been documented, and no transmission of RVF to health care workers has been reported when standard infection control precautions have been implemented.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Outbreaks of RVF in animals can be prevented by a sustained programme of preventive animal vaccination.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Animal immunization must be implemented prior to an outbreak if an epizootic is to be prevented. Once an outbreak has occurred, animal vaccination should NOT be implemented because there is a high risk of intensifying the outbreak through the use of multi-dose vials and the re-use of needles and syringes.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  }
+]

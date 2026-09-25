@@ -1,0 +1,162 @@
+[
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Most people with dengue have mild or no symptoms and will get better in 1–2 weeks.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "If symptoms occur, they usually begin 4–10 days after infection and last for 2–7 days.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Symptoms may include: high fever (40°C/104°F), severe headache, pain behind the eyes, muscle and joint pains, nausea, vomiting, swollen glands, and rash.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Individuals who are infected for the second time are at greater risk of severe dengue.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "The symptoms of severe dengue often come after the fever has gone away and may include: severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, being very thirsty, pale and cold skin, and feeling weak.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "Dengue is treated through pain management as there is no specific treatment currently.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "For people with severe dengue, hospitalization is often necessary.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "To lower your risk of getting dengue, protect yourself from mosquito bites by using clothes that cover as much of your body as possible, mosquito nets, window screens, mosquito repellents (containing DEET, Picaridin or IR3535), and coils and vaporizers.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "To prevent mosquitoes from breeding, implement environmental management and modification practices to stop mosquitoes from accessing egg-laying habitats, dispose of solid waste properly, remove artificial habitats that can hold water, cover, empty and clean domestic water storage containers on a weekly basis, and apply appropriate insecticides to water storage outdoor containers.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "The incidence of dengue has grown dramatically worldwide in recent decades, with the number of cases reported to WHO increasing from 505 430 cases in 2000 to 14.6 million in 2024.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "In 2024, more cases of dengue were recorded than ever before in a 12-month period, affecting over 100 countries on all continents.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "From January to July 2025, over 4 million cases and over 3000 deaths have been reported to WHO from 97 countries.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue is spreading to new areas, including the European and Eastern Mediterranean regions.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "The Region of the Americas contributed a significant proportion of the global burden, with over 13 million cases reported to WHO.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "There is evidence of the possibility of maternal transmission (i.e. from a pregnant mother to her baby).",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "The dengue virus is transmitted to humans through the bites of infected female mosquitoes, primarily the Aedes aegypti mosquito.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "Other species within the Aedes genus can also act as vectors, but their contribution is normally secondary to Aedes aegypti.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "Human-to-mosquito transmission can occur up to 2 days before someone shows symptoms of the illness, and up to 2 days after the fever has resolved.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "The mosquitoes that spread dengue are active during the day.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "Currently, one vaccine (QDenga) is available and licensed in some countries. However, it is recommended only for those aged 6–16 years in high transmission settings.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  }
+]

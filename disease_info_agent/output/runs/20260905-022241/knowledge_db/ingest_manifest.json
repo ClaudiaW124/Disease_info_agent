@@ -1,0 +1,8 @@
+{
+  "run_id": "20260905-022241",
+  "ingested_at": "2026-09-04T18:29:28.675401+00:00",
+  "collection_name": "disease_facts",
+  "document_count": 184,
+  "persist_directory": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\knowledge_db",
+  "include_aggregated": true
+}

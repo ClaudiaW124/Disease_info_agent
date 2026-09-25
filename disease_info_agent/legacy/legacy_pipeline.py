@@ -1,7 +1,7 @@
 import asyncio
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from html import unescape
 from pathlib import Path
 from typing import Any
@@ -11,9 +11,9 @@ import aiohttp
 import matplotlib
 import matplotlib.font_manager as fm
 import matplotlib.pyplot as plt
+from models.run_context import RunContext
 from wordcloud import WordCloud
 
-from models.run_context import RunContext
 from utu.agents import SimpleAgent
 
 matplotlib.use("Agg")
@@ -137,7 +137,7 @@ class DiseaseInfoOrchestrator:
         if len(tasks) == len(urls):
             # 用原始 URL 覆盖 Planner 可能改坏的链接
             fixed_tasks = []
-            for index, (task, url) in enumerate(zip(tasks, urls), 1):
+            for _index, (task, url) in enumerate(zip(tasks, urls, strict=False), 1):
                 if url not in task:
                     fixed_tasks.append(self._build_tasks_from_urls([url])[0])
                 else:
@@ -270,7 +270,7 @@ class DiseaseInfoOrchestrator:
         print("  三种方式均失败，跳过该 URL")
         return {
             "url": url,
-            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "timestamp": datetime.now(UTC).isoformat(),
             "diseases_found": [],
             "extracted_content": [],
             "errors": errors,
@@ -314,7 +314,7 @@ class DiseaseInfoOrchestrator:
 
         return {
             "url": url,
-            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "timestamp": datetime.now(UTC).isoformat(),
             "diseases_found": sorted(diseases_found),
             "extracted_content": extracted[:8],
             "source": source,
@@ -366,7 +366,7 @@ class DiseaseInfoOrchestrator:
     def _normalize_scraper_result(self, data: dict[str, Any], task: str, index: int) -> dict[str, Any]:
         url = data.get("url") or self._extract_url_from_task(task) or f"unknown_{index:03d}"
         data["url"] = url
-        data.setdefault("timestamp", datetime.now(timezone.utc).isoformat())
+        data.setdefault("timestamp", datetime.now(UTC).isoformat())
         data.setdefault("diseases_found", [])
         data.setdefault("extracted_content", [])
 
@@ -404,10 +404,10 @@ class DiseaseInfoOrchestrator:
             raw = ""
 
             # 与技术报告一致：始终先用 Scraper 智能体（search + web_qa）
-            print(f"  使用 Scraper 智能体抓取...")
+            print("  使用 Scraper 智能体抓取...")
             try:
                 #把 task 交给 Scraper 这个 SimpleAgent 执行，Agent 内部会调用搜索 / 网页工具，返回执行记录对象`recorder`
-                recorder = await self.scraper_agent.run(task) 
+                recorder = await self.scraper_agent.run(task)
                 #拿到 Agent 大模型输出原始字符串（通常期望输出 JSON）
                 raw = recorder.final_output
                 #工具函数，**从大模型输出文本里面抠 JSON 字符串**
@@ -415,7 +415,7 @@ class DiseaseInfoOrchestrator:
                 if parsed is None:
                     data = {
                         "url": source_url,
-                        "timestamp": datetime.now(timezone.utc).isoformat(),
+                        "timestamp": datetime.now(UTC).isoformat(),
                         "diseases_found": [],
                         "extracted_content": [],
                         "raw_output": raw,
@@ -427,7 +427,7 @@ class DiseaseInfoOrchestrator:
                 print(f"  Scraper 智能体失败: {exc}")
                 data = {
                     "url": source_url,
-                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "timestamp": datetime.now(UTC).isoformat(),
                     "diseases_found": [],
                     "extracted_content": [],
                     "scraper_error": str(exc),
@@ -446,7 +446,7 @@ class DiseaseInfoOrchestrator:
                     data["fallback"] = "raw_output_regex"
 
             if not data.get("extracted_content") and source_url:
-                print(f"  智能体未提取到有效内容，尝试网页直连备用抓取...")
+                print("  智能体未提取到有效内容，尝试网页直连备用抓取...")
                 try:
                     fallback_data = await self._scrape_url_smart(source_url)
                     if fallback_data.get("extracted_content"):
@@ -502,7 +502,7 @@ class DiseaseInfoOrchestrator:
             }
 
         return {
-            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_at": datetime.now(UTC).isoformat(),
             "target_diseases": TARGET_DISEASES,
             "total_sources": len(sources),
             "sources": sources,

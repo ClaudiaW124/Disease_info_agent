@@ -1,0 +1,106 @@
+{
+  "mode": "direct",
+  "goal": "查询登革热是否具有传染性",
+  "reason": "用户的问题是关于登革热的传染性，属于单一医学问答意图，可直接使用 query_disease 工具处理",
+  "phases": [
+    "Planner",
+    "Orchestrator",
+    "RAG",
+    "Validate"
+  ],
+  "steps": [],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "user",
+        "label": "用户",
+        "kind": "user"
+      },
+      {
+        "id": "coordinator",
+        "label": "Coordinator",
+        "kind": "agent"
+      },
+      {
+        "id": "planner",
+        "label": "Planner",
+        "kind": "agent"
+      },
+      {
+        "id": "orchestrator",
+        "label": "Orchestrator",
+        "kind": "agent"
+      },
+      {
+        "id": "rag",
+        "label": "LangGraph RAG",
+        "kind": "pipeline"
+      },
+      {
+        "id": "validate",
+        "label": "Validate",
+        "kind": "pipeline"
+      },
+      {
+        "id": "reply",
+        "label": "回复",
+        "kind": "output"
+      }
+    ],
+    "edges": [
+      {
+        "source": "user",
+        "target": "coordinator"
+      },
+      {
+        "source": "coordinator",
+        "target": "planner"
+      },
+      {
+        "source": "planner",
+        "target": "orchestrator"
+      },
+      {
+        "source": "orchestrator",
+        "target": "rag"
+      },
+      {
+        "source": "rag",
+        "target": "validate"
+      },
+      {
+        "source": "validate",
+        "target": "reply"
+      }
+    ]
+  },
+  "events": [
+    {
+      "ts": "2026-09-09T06:26:25.965251+00:00",
+      "phase": "rag",
+      "name": "query_start",
+      "detail": {
+        "question": "登革热具有传染性吗",
+        "run_id": "20260905-022241"
+      }
+    },
+    {
+      "ts": "2026-09-09T06:26:35.143208+00:00",
+      "phase": "rag",
+      "name": "query_done",
+      "detail": {
+        "steps": [
+          "guard=ok",
+          "retrieve(score=0.616, hits=5)",
+          "grade=yes(llm)",
+          "generate",
+          "validate=yes"
+        ],
+        "refused": false
+      }
+    }
+  ],
+  "trace_id": "20260909-062621",
+  "reply_preview": "登革热具有传染性，但其传播方式是通过蚊子叮咬，具体是由Aedes属蚊子（尤其是A. aegypti）传播的。它不会在人与人之间直接传播。\n\n来源：  \n- [登革热 - 维基百科](https://en.wikipedia.org/wiki/Dengue_fever)",
+  "saved_at": "2026-09-09T06:26:38.683050+00:00"
+}

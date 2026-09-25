@@ -8,7 +8,6 @@ from pathlib import Path
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-
 from rag.settings import COLLECTION_NAME, require_embedding_env, require_llm_env
 
 

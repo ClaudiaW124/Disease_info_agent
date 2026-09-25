@@ -1,0 +1,26 @@
+[
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "The symptoms are similar for children, but they can also get pain in their ear, sore eyes, swollen glands and appear less active.",
+    "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "treatment",
+    "content": "Do not give aspirin to children under the age of 16.",
+    "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "treatment",
+    "content": "A pharmacist can give treatment advice and recommend flu remedies.",
+    "source_url": "https://www.nhs.uk/conditions/flu/symptoms/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

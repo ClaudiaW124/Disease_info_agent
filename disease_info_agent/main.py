@@ -1,31 +1,16 @@
 import argparse
-
 import asyncio
-
 import json
-
 from pathlib import Path
 
-
-
 from legacy.legacy_pipeline import DiseaseInfoOrchestrator
-
 from models.run_context import RunContext
-
 from pipeline.aggregator_agent import AggregatorAgent
-
 from pipeline.extractor_agent import ExtractorAgent
-
 from pipeline.fetcher import Fetcher
-
-from pipeline.keyword_extract import KeywordExtractor, TARGET_DISEASES
-
+from pipeline.keyword_extract import TARGET_DISEASES, KeywordExtractor
 from pipeline.reporter import PipelineReporter
-
 from pipeline.validator import FactValidator
-
-
-
 
 
 def read_urls(urls_file_path: str, project_root: Path) -> list[str]:
@@ -542,7 +527,11 @@ async def run_ask(args: argparse.Namespace, project_root: Path) -> dict:
 
     if args.demo:
 
-        results = run_demo(run_context.knowledge_db_dir, simple=getattr(args, "simple", False), verbose=getattr(args, "verbose", False))
+        results = run_demo(
+            run_context.knowledge_db_dir,
+            simple=getattr(args, "simple", False),
+            verbose=getattr(args, "verbose", False),
+        )
 
         return {"run_id": run_context.run_id, "results": results}
 
@@ -857,7 +846,10 @@ def _update_manifest_stats(run_context: RunContext, stats: dict, pipeline_suffix
 
         manifest["pipeline_version"] = manifest.get("pipeline_version", "v3") + pipeline_suffix
 
-    run_context.manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
+    run_context.manifest_path.write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
 
 
 
@@ -915,7 +907,11 @@ async def main() -> None:
 
     pipeline_parser.add_argument("--skip-rag", action="store_true", help="跳过 RAG ingest 入库")
 
-    pipeline_parser.add_argument("--facts-only", action="store_true", help="RAG ingest 仅入库 facts，不含 aggregated 摘要")
+    pipeline_parser.add_argument(
+        "--facts-only",
+        action="store_true",
+        help="RAG ingest 仅入库 facts，不含 aggregated 摘要",
+    )
 
 
 

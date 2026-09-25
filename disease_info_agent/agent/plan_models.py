@@ -6,6 +6,7 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
+
 class PlanStep(BaseModel):
     id: int
     tool: str

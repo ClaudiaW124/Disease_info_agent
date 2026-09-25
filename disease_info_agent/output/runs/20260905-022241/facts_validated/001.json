@@ -1,0 +1,154 @@
+[
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Symptoms typically begin 3 to 14 days after infection.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "They may include a high fever, headache, vomiting, muscle and joint pains, and a characteristic skin itching and skin rash.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Most cases of dengue fever are either asymptomatic or manifest mild symptoms such as an uncomplicated fever (80% of cases).",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "In severe dengue, symptoms include severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums or nose, fatigue, restlessness, blood in vomit or stool, extreme thirst, pale and cold skin, and feelings of weakness.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "Dengue virus is most frequently transmitted by the bite of mosquitos in the Aedes genus, particularly A. aegypti.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "The virus has four confirmed serotypes; infection with one type usually gives lifelong immunity to that type, but only short-term immunity to the others.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "Subsequent infection with a different type increases the risk of severe complications due to a phenomenon known as antibody-dependent enhancement (ADE).",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "Dengue fever vaccine, decreasing mosquito exposure.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "Mosquito control is the primary method of prevention, including eliminating open sources of water and using insecticides or biological control agents.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "Supportive care, intravenous fluids, blood transfusions.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "For mild cases, treatment focuses on treating pain. Acetaminophen may be used to relieve mild fever or pain.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "Severe dengue is a life-threatening emergency, requiring hospitalization and potentially intensive care.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "As of March 2023, dengue is endemic in more than 100 countries with cases reported in every continent with the exception of Antarctica.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "The Americas, Southeast Asia and the Western Pacific regions are the most seriously affected.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "WHO currently estimates that 3.9 billion people are at risk of dengue infection.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue has increased in incidence in recent decades, with WHO recording a ten fold increase between 2010 and 2019 (from 500,000 to 5 million recorded cases).",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Infections are most commonly acquired in urban environments where the virus is primarily transmitted by the mosquito species Aedes aegypti.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue is spreading from tropical and subtropical regions to the Iberian Peninsula and the southern states of the US, partly attributed to climate change.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue has continued to increase in prevalence during the 21st century as the mosquito vector continues to expand its range.",
+    "source_url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  }
+]

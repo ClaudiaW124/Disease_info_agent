@@ -1,0 +1,130 @@
+[
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The mild symptoms may include: fever, muscle pains, and headaches which often last for up to a week.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "In humans, the virus can cause several syndromes. Usually, they have either no symptoms or only a mild illness with fever, headache, muscle pains, and liver abnormalities.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Patients who become ill usually experience fever, generalised weakness, back pain, dizziness, and weight loss at the onset of the illness.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "However, most infected individuals are asymptomatic or develop mild flu-like symptoms.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "The virus is transmitted through mosquito vectors, as well as through contact with the tissue of infected animals.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Contact with infected tissue is considered to be the main source of human infections.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "A person's chances of becoming infected can be reduced by taking measures to decrease contact with bodily fluids or tissues of infected animals and protect against mosquitoes and other bloodsucking insects.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "The use of mosquito repellents and bed nets are two effective methods.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Prevention of the disease in humans is accomplished by vaccinating animals against the disease.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "Outbreaks of the disease have only occurred in Africa and Arabia.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "Outbreaks usually occur during periods of increased rain which increases the number of mosquitoes.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "Outbreaks typically occur during years of unusually heavy rainfall and flooding, which increase mosquito hatching and transmission.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "RVF outbreaks occur across sub-Saharan Africa, with outbreaks occurring elsewhere infrequently.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "Outbreaks are known to occur following periods of flooding or heavy rainfall, creating favorable breeding conditions for mosquito vectors.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "Environmental factors such as heavy rainfall and flooding contribute to mosquito population growth and play an important role in the emergence and spread of RVF.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "The first documented outbreak was identified in Kenya in 1931, in sheep, cattle, and humans.",
+    "source_url": "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  }
+]

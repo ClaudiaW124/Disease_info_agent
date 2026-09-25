@@ -1,0 +1,82 @@
+[
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "Flu symptoms come on very quickly and can include: a sudden high temperature, an aching body, feeling tired or exhausted, a dry cough, a sore throat, a headache, difficulty sleeping, loss of appetite, diarrhoea, tummy pain, feeling sick (nausea) and being sick (vomiting) – although these are less common in adults",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "The symptoms are similar for children, but they can also get pain in their ear, sore eyes, swollen glands and appear less active",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "transmission",
+    "content": "Flu is spread by germs from coughs and sneezes, which can live on hands and surfaces for 24 hours",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "To reduce the risk of spreading flu: wash your hands often with warm water and soap, cover your mouth and nose with a tissue when you cough or sneeze (if you do not have a tissue, cough or sneeze into the bend of your elbow, not into your hand), bin used tissues as quickly as possible",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "treatment",
+    "content": "If you have flu, there are some things you can do to help get better more quickly: rest and sleep, take paracetamol or ibuprofen to lower your temperature and treat aches and pains",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "treatment",
+    "content": "Do not take paracetamol and flu remedies that contain paracetamol at the same time as it's easy to take more than the recommended dose",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "treatment",
+    "content": "Antibiotics do not work for viral infections such as flu. GPs do not recommend antibiotics for flu because they will not relieve your symptoms or speed up your recovery",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "epidemiology",
+    "content": "Flu is very infectious and easily spreads to other people. You're more likely to give it to others in the first 5 days after getting infected",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "Try to stay at home and avoid contact with other people if you have a high temperature, feel hot, cold or shivery, or do not feel well enough to do your normal activities",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.85,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "The flu vaccine helps protect against flu. It's safe and effective",
+    "source_url": "https://www.nhs.uk/conditions/flu/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

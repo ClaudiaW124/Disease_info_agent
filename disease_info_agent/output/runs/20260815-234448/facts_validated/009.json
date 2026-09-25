@@ -1,0 +1,234 @@
+[
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Most human infections result from contact with the blood or organs of infected animals.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Human infections have also resulted from the bites of infected mosquitoes.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "To date, no human-to-human transmission of RVF virus has been documented.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Most infections in human will lead to no symptoms or mild form of the disease characterized by a feverish syndrome with sudden onset of flu-like fever, muscle and joint pain and headache.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Some patients develop neck stiffness, sensitivity to light, loss of appetite and vomiting.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The symptoms of RVF usually last from 4 to 7 days, after which time the immune response becomes detectable with the appearance of antibodies and the virus disappears from the blood.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "treatment",
+    "content": "As most human cases of RVF are relatively mild and of short duration, no specific treatment is required for these patients.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "treatment",
+    "content": "For the more severe cases, the predominant treatment is early intensive supportive care including fluid management and treatment of specific symptoms.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Raising awareness of the risk factors of RVF infection as well as the protective measures individuals can take to prevent mosquito bites is the only way to reduce human infection.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Public health messages for risk reduction should focus on reducing the risk of animal-to-human transmission as a result of unsafe animal husbandry and slaughtering practices.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Public health messages for risk reduction should focus on reducing the risk of animal-to-human transmission arising from the unsafe consumption of fresh blood, raw milk or animal tissue.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Public health messages for risk reduction should focus on the importance of personal and community protection against mosquito bites through the use of impregnated mosquito nets, personal insect repellent if available, light-coloured clothing (long-sleeved shirts and trousers) and by avoiding outdoor activity at peak biting times of the vector species.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "人类感染也可能由感染蚊虫叮咬引起，最常见的蚊虫是Aedes和Culex蚊。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "大多数感染在人类中不会引起症状或仅引起轻微的疾病，表现为发热综合征，突然出现类似流感的发热、肌肉和关节疼痛以及头痛。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "一些患者会出现颈部僵硬、对光敏感、食欲减退和呕吐的症状。在这些患者中，疾病在其早期阶段可能被误认为脑膜炎。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "RVF症状通常持续4至7天，之后免疫反应变得可检测，抗体出现，病毒从血液中消失。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "一小部分患者会发展为更严重的疾病形式，通常表现为以下三种综合征之一：眼型（0.5–2%的患者）、脑膜脑炎型（少于1%的患者）或出血热型（少于1%的患者）。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "出血热型的症状在发病后2–4天出现，最初表现为严重肝功能障碍，随后出现出血迹象，如呕血、粪便带血、紫癜性皮疹或淤斑、鼻或牙龈出血、月经量过多以及静脉穿刺部位出血。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "出血热型患者的病死率很高，约为50%。通常在症状出现后3至6天死亡。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "公共健康教育和风险减少应关注：减少由于不安全的家畜饲养和屠宰做法导致的家畜-人传播风险，处理病畜或其组织时应保持手部卫生，穿戴手套及其他适当的个人防护装备。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "减少由于不安全消费新鲜血液、生奶或动物组织导致的家畜-人传播风险。在疫情地区，所有动物产品（血液、肉类和奶）应在食用前彻底煮熟。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "通过使用浸渍防蚊网、个人驱蚊剂（如可得），以及避免在蚊虫高峰期进行户外活动，来降低蚊虫叮咬风险。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "通过消灭蚊虫滋生地来控制蚊虫传播，特别是当这些地点可以明确识别且范围有限时。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "自1931年在肯尼亚裂谷地区首次鉴定以来，RVF疫情已在撒哈拉以南非洲地区报告。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "1977年，RVF病毒通过受感染的家畜贸易沿尼罗河灌溉系统传入埃及，引发爆发。1997–98年，肯尼亚、索马里和坦桑尼亚发生了主要疫情，这与厄尔尼诺现象和广泛的洪水有关。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "2000年9月，RVF通过从非洲之角受感染家畜贸易传播到沙特阿拉伯和也门，这是该疾病首次被报告出现在非洲大陆之外，引发对疾病可能扩散到亚洲和其他地区其他部分的担忧。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "epidemiology",
+    "content": "RVF疫情在非洲、沙特阿拉伯和也门与高于平均水平的降雨有关；在东非地区则与厄尔尼诺–南方涛动现象温暖阶段的强降雨有关。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "RVF在动物中的爆发可以通过持续的预防性疫苗接种计划来预防。",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

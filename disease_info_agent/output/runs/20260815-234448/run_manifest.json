@@ -1,0 +1,57 @@
+{
+  "run_id": "20260815-234448",
+  "started_at": "2026-08-15T15:44:48.161056Z",
+  "finished_at": "2026-08-15T15:45:17.188950Z",
+  "urls_file": "disease_info_agent\\urls.txt",
+  "urls": [
+    "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "https://www.nhs.uk/conditions/dengue/",
+    "https://www.nhs.uk/conditions/scarlet-fever/",
+    "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+    "https://www.nhs.uk/conditions/flu/",
+    "https://en.wikipedia.org/wiki/Dengue_fever",
+    "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "https://en.wikipedia.org/wiki/Influenza"
+  ],
+  "target_diseases": [
+    "登革病毒",
+    "猩红热",
+    "裂谷热",
+    "流感"
+  ],
+  "pipeline_version": "v2-pipeline+extract+extract+extract+validate+aggregate+report+ingest+ingest",
+  "status": "completed",
+  "stats": {
+    "url_count": 10,
+    "fetch_success_count": 10,
+    "fact_count": 106,
+    "raw_pages_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448\\raw_pages",
+    "facts_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448\\facts",
+    "extractor_fact_count": 146,
+    "extractor": "agent",
+    "validated_facts_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448\\facts_validated",
+    "validation_stats": {
+      "input_count": 146,
+      "removed_short": 2,
+      "removed_json_fragment": 0,
+      "removed_navigation": 0,
+      "removed_disease_mismatch": 0,
+      "removed_duplicate": 0,
+      "output_count": 144
+    },
+    "aggregated_data_path": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448\\aggregated_data.json",
+    "aggregated_disease_count": 4,
+    "visualizations_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448\\visualizations",
+    "visualization_files": [
+      "disease_wordcloud.png",
+      "source_distribution.png",
+      "disease_distribution.png",
+      "comprehensive_report.md"
+    ],
+    "knowledge_db_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448\\knowledge_db",
+    "knowledge_db_document_count": 170
+  },
+  "output_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260815-234448"
+}

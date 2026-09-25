@@ -1,0 +1,130 @@
+[
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "Sore throat, fever, headaches, swollen lymph nodes in the neck, characteristic rash[1]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "The face is flushed and the rash is red and blanching.[5]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "It typically feels like sandpaper and the tongue may be red and bumpy.[1]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "The rash usually appears one to two days later, but may appear before or up to seven days following feeling ill.[1]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "symptoms",
+    "content": "The skin may feel itchy, but is not painful.[5]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "transmission",
+    "content": "The bacteria are usually spread by people coughing or sneezing.[1]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "transmission",
+    "content": "It can also be spread when a person touches an object that has the bacteria on it and then touches their mouth or nose.[1]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "prevention",
+    "content": "Prevention is by frequent handwashing, not sharing personal items, and staying away from other people when sick.[1]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "treatment",
+    "content": "Antibiotics to combat the streptococcal infection are the mainstay of treatment for scarlet fever.[5]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "treatment",
+    "content": "The antibiotic of choice is Penicillin V which is taken by mouth.[22]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "treatment",
+    "content": "Benzathine penicillin G can be given as a one time intramuscular injection as another alternative if swallowing pills is not possible.[45]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "treatment",
+    "content": "If the person is allergic to the family of antibiotics which both penicillin and amoxicillin are a part of (beta-lactam antibiotics), a first generation cephalosporin is used.[35]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "epidemiology",
+    "content": "Scarlet fever occurs equally in both males and females.[16]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "epidemiology",
+    "content": "Children are most commonly infected, typically between 5–15 years old.[21]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "epidemiology",
+    "content": "The incidence of scarlet fever was reported to be increasing in countries including England, Wales, South Korea, Vietnam, China, and Hong Kong in the 2010s; the cause had not been established as of 2018.[69][70]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "猩红热",
+    "field": "epidemiology",
+    "content": "There have been several reported outbreaks of the disease in various countries in the past decade.[50]",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

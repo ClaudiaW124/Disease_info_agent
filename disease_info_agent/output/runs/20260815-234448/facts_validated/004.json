@@ -1,0 +1,90 @@
+[
+  {
+    "disease": "登革病毒",
+    "field": "transmission",
+    "content": "You can get dengue if you're bitten by an infected mosquito. The mosquitoes that carry the dengue virus bite during the day.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "Dengue is very common in certain parts of the world. It's often found in tropical areas including: parts of Africa and Asia, Central and South America, the Caribbean, the Pacific islands, some southern areas of North America.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "epidemiology",
+    "content": "There's also a risk of getting dengue at certain times of the year (spring to autumn) in parts of southern Europe. European countries where dengue has been found include: Croatia, France, Italy, Spain, Madeira.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Dengue does not always cause symptoms. If you do have symptoms, they usually start 4 to 10 days after being bitten by an infected mosquito.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Some dengue symptoms are similar to flu. They include: a high temperature, a severe headache, pain behind your eyes, muscle and joint pain, feeling or being sick, swollen glands, a blotchy rash made up of flat or slightly raised spots – this can affect large areas of your body.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "Most people with dengue feel better in a few days. There is no treatment for dengue, but you can help ease your symptoms by: resting, drinking plenty of fluids, taking paracetamol to help bring down your temperature and ease any pain.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "Do not take anti-inflammatory painkillers like ibuprofen or aspirin. These can cause bleeding problems if you have dengue.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "If you're at increased risk of getting seriously ill from dengue, you should consider not travelling to countries where the infection is found. At-risk groups include those who: are very young, are older, are pregnant, have certain health conditions, including asthma, diabetes, high or low blood pressure or a condition that makes you bleed more easily, have had dengue in the past.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "prevention",
+    "content": "If you're in a country where dengue is found, the best way to prevent infection is to avoid being bitten by mosquitoes. Do: wear long-sleeved clothing and trousers to cover your arms and legs, particularly during early morning and early evening, use insect repellent on your skin (ideally one that contains the ingredient DEET), close windows and doors whenever possible, or use blinds or screens, sleep under a mosquito net treated with insecticide, including during the day.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "treatment",
+    "content": "If you have severe dengue, you'll need to stay in hospital until you recover. Severe dengue can be very serious if it's not treated quickly in hospital.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "登革病毒",
+    "field": "symptoms",
+    "content": "Your temperature may start returning to normal, but you may then get more serious symptoms. Symptoms of severe dengue include: severe tummy pain, repeatedly being sick, fast breathing, bleeding gums or nose, extreme tiredness (fatigue), being unable to relax (restlessness), blood in your vomit or poo.",
+    "source_url": "https://www.nhs.uk/conditions/dengue/",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

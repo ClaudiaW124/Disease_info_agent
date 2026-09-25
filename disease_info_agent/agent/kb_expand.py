@@ -13,8 +13,8 @@ from agent.run_trace_buffer import append_event
 from models.run_context import RunContext
 from models.schemas import RawPage
 from pipeline.extractor_agent import ExtractorAgent
-from pipeline.keyword_extract import load_raw_page
 from pipeline.fetcher import Fetcher
+from pipeline.keyword_extract import load_raw_page
 from pipeline.validator import FactValidator
 from rag.ingest import FactIngester
 
@@ -183,7 +183,11 @@ async def expand_knowledge_base(
     stats["validated_fact_count"] = validation_stats.get("output_count")
     manifest["urls"] = urls_list
     manifest["stats"] = stats
-    (run_dir / "run_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
+    manifest_path = run_dir / "run_manifest.json"
+    manifest_path.write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
 
     append_event("kb_expand", "ingest_done", ingest_manifest)
     return {

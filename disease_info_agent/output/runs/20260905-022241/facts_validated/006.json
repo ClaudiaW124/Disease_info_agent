@@ -1,0 +1,10 @@
+[
+  {
+    "disease": "流感",
+    "field": "general",
+    "content": "Reference #18.9877d917.1788546166.8de20273 https://errors.edgesuite.net/18.9877d917.1788546166.8de20273",
+    "source_url": "https://www.cdc.gov/flu/about/index.html",
+    "confidence": 0.3,
+    "context": "extractor_keyword_fallback"
+  }
+]

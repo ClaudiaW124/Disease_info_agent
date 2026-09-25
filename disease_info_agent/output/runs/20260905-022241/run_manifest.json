@@ -1,0 +1,62 @@
+{
+  "run_id": "20260905-022241",
+  "started_at": "2026-09-04T18:22:41.602283Z",
+  "finished_at": "2026-09-04T18:29:28.677977Z",
+  "urls_file": "urls.txt",
+  "urls": [
+    "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "https://www.nhs.uk/conditions/dengue/",
+    "https://en.wikipedia.org/wiki/Dengue_fever",
+    "https://www.cdc.gov/dengue/about/index.html",
+    "https://www.nhs.uk/conditions/scarlet-fever/",
+    "https://www.nhs.uk/conditions/scarlet-fever/symptoms/",
+    "https://en.wikipedia.org/wiki/Scarlet_fever",
+    "https://www.cdc.gov/scarlet-fever/about/",
+    "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "https://www.who.int/news-room/questions-and-answers/item/rift-valley-fever",
+    "https://en.wikipedia.org/wiki/Rift_Valley_fever",
+    "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+    "https://www.nhs.uk/conditions/flu/",
+    "https://www.nhs.uk/conditions/flu/symptoms/",
+    "https://en.wikipedia.org/wiki/Influenza",
+    "https://www.cdc.gov/flu/about/index.html"
+  ],
+  "target_diseases": [
+    "登革病毒",
+    "猩红热",
+    "裂谷热",
+    "流感"
+  ],
+  "pipeline_version": "v4-pipeline",
+  "status": "completed",
+  "stats": {
+    "url_count": 16,
+    "fetch_success_count": 16,
+    "extractor_fact_count": 172,
+    "validation_stats": {
+      "input_count": 172,
+      "removed_short": 0,
+      "removed_json_fragment": 0,
+      "removed_navigation": 0,
+      "removed_disease_mismatch": 1,
+      "removed_duplicate": 8,
+      "output_count": 163
+    },
+    "validated_fact_count": 163,
+    "aggregated_disease_count": 4,
+    "raw_pages_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\raw_pages",
+    "facts_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\facts",
+    "validated_facts_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\facts_validated",
+    "aggregated_data_path": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\aggregated_data.json",
+    "visualizations_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\visualizations",
+    "visualization_files": [
+      "disease_wordcloud.png",
+      "source_distribution.png",
+      "disease_distribution.png",
+      "comprehensive_report.md"
+    ],
+    "knowledge_db_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241\\knowledge_db",
+    "knowledge_db_document_count": 184
+  },
+  "output_dir": "D:\\My Documents\\Desktop\\Youtu-Agent\\disease_info_agent\\output\\runs\\20260905-022241"
+}

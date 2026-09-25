@@ -10,10 +10,9 @@ from urllib.parse import urlparse
 import matplotlib
 import matplotlib.font_manager as fm
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-
 from models.run_context import RunContext
 from pipeline.keyword_extract import TARGET_DISEASES
+from wordcloud import WordCloud
 
 matplotlib.use("Agg")
 

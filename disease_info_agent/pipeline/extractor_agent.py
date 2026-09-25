@@ -9,10 +9,10 @@ from pathlib import Path
 from typing import Any
 
 import tiktoken
-
 from models.run_context import RunContext
 from models.schemas import ExtractedFact, FactField, RawPage
 from pipeline.keyword_extract import TARGET_DISEASES, KeywordExtractor, guess_diseases_from_url, load_raw_page
+
 from utu.agents import SimpleAgent
 
 MAX_TOKENS = 8000

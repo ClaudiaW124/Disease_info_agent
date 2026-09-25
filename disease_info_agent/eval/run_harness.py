@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 from datetime import UTC, datetime
 from html import escape
@@ -53,6 +54,12 @@ def load_golden_questions(path: Path | None = None, *, tier: str | None = None) 
         if tier is None or item_tier == tier:
             rows.append(item)
     return rows
+
+
+def _ragas_score(raw: object) -> float | None:
+    if raw is None or (isinstance(raw, float) and math.isnan(raw)):
+        return None
+    return float(raw)
 
 
 def _keyword_pass(answer_text: str, keywords: list[str]) -> bool | None:
@@ -119,8 +126,6 @@ def _run_ragas_batch(rows: list[dict[str, Any]], *, use_ragas: bool) -> tuple[di
     if not use_ragas:
         return {}, "disabled"
     try:
-        import math
-
         from datasets import Dataset
         from ragas import evaluate
         from ragas.embeddings import LangchainEmbeddingsWrapper
@@ -161,8 +166,8 @@ def _run_ragas_batch(rows: list[dict[str, Any]], *, use_ragas: bool) -> tuple[di
         faith_val = df.iloc[index]["faithfulness"] if "faithfulness" in df.columns else None
         rel_val = df.iloc[index]["answer_relevancy"] if "answer_relevancy" in df.columns else None
         scores[row["id"]] = {
-            "faithfulness": None if faith_val is None or (isinstance(faith_val, float) and math.isnan(faith_val)) else float(faith_val),
-            "answer_relevancy": None if rel_val is None or (isinstance(rel_val, float) and math.isnan(rel_val)) else float(rel_val),
+            "faithfulness": _ragas_score(faith_val),
+            "answer_relevancy": _ragas_score(rel_val),
         }
     return scores, "ok"
 
@@ -270,7 +275,9 @@ def evaluate_rag_questions(
                 "refused": row["answer"].get("refused"),
                 "validate_passed": row["answer"].get("validate_passed"),
                 "citations": row["answer"].get("citations"),
-                "answer_preview": (row["answer_text"][:160] + "…") if len(row["answer_text"]) > 160 else row["answer_text"],
+                "answer_preview": (
+                    (row["answer_text"][:160] + "…") if len(row["answer_text"]) > 160 else row["answer_text"]
+                ),
                 "passed": passed,
             }
         )
@@ -292,11 +299,17 @@ def evaluate_rag_questions(
         "hard_case_count": len(hard_items),
         "pass_count": sum(1 for r in results if r["passed"]),
         "pass_rate": round(sum(1 for r in results if r["passed"]) / len(results), 4) if results else 0.0,
-        "hard_case_pass_rate": round(sum(1 for r in hard_items if r["passed"]) / len(hard_items), 4) if hard_items else None,
+        "hard_case_pass_rate": (
+            round(sum(1 for r in hard_items if r["passed"]) / len(hard_items), 4) if hard_items else None
+        ),
         "avg_faithfulness": _avg("faithfulness", answered),
         "avg_answer_relevancy": _avg("answer_relevancy", answered),
-        "avg_ragas_faithfulness": _avg("faithfulness", [r for r in answered if r["faithfulness_source"] == "ragas"]),
-        "avg_ragas_answer_relevancy": _avg("answer_relevancy", [r for r in answered if r["answer_relevancy_source"] == "ragas"]),
+        "avg_ragas_faithfulness": _avg(
+            "faithfulness", [r for r in answered if r["faithfulness_source"] == "ragas"]
+        ),
+        "avg_ragas_answer_relevancy": _avg(
+            "answer_relevancy", [r for r in answered if r["answer_relevancy_source"] == "ragas"]
+        ),
         "ragas_status": ragas_status,
         "ragas_scored_count": len(ragas_rows),
         "refusal_accuracy": round(sum(1 for r in refused_items if r["behavior_pass"]) / len(refused_items), 4)
@@ -361,7 +374,9 @@ def render_html_report(report: dict[str, Any]) -> str:
 </head>
 <body>
   <h1>Disease Info Eval Harness</h1>
-  <p class="meta">run_id={escape(str(report.get('run_id', '')))} · generated_at={escape(str(report.get('generated_at', '')))}</p>
+  <p class="meta">run_id={escape(str(report.get('run_id', '')))} · generated_at={
+      escape(str(report.get('generated_at', '')))
+  }</p>
 
   <div class="cards">
     <div class="card">Pass rate<strong>{summary.get('pass_rate')}</strong></div>

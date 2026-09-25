@@ -154,6 +154,13 @@ select = [
 ]
 isort = { combine-as-imports = true, known-first-party = ["utu"] }
 
+# Scripts that bootstrap sys.path before package imports (CLI / direct `python rag/*.py`).
+[tool.ruff.lint.per-file-ignores]
+"disease_info_agent/agent/__main__.py" = ["E402"]
+"disease_info_agent/rag/ask.py" = ["E402"]
+"disease_info_agent/rag/graph.py" = ["E402"]
+"disease_info_agent/rag/ingest.py" = ["E402"]
+
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 

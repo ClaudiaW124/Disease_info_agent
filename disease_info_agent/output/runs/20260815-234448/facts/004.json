@@ -1,0 +1,106 @@
+[
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Most human infections result from contact with the blood or organs of infected animals.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "Human infections have also resulted from the bites of infected mosquitoes.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "transmission",
+    "content": "To date, no human-to-human transmission of RVF virus has been documented.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Most infections in human will lead to no symptoms or mild form of the disease characterized by a feverish syndrome with sudden onset of flu-like fever, muscle and joint pain and headache.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "Some patients develop neck stiffness, sensitivity to light, loss of appetite and vomiting.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "symptoms",
+    "content": "The symptoms of RVF usually last from 4 to 7 days, after which time the immune response becomes detectable with the appearance of antibodies and the virus disappears from the blood.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "treatment",
+    "content": "As most human cases of RVF are relatively mild and of short duration, no specific treatment is required for these patients.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "treatment",
+    "content": "For the more severe cases, the predominant treatment is early intensive supportive care including fluid management and treatment of specific symptoms.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Raising awareness of the risk factors of RVF infection as well as the protective measures individuals can take to prevent mosquito bites is the only way to reduce human infection.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Public health messages for risk reduction should focus on reducing the risk of animal-to-human transmission as a result of unsafe animal husbandry and slaughtering practices.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Public health messages for risk reduction should focus on reducing the risk of animal-to-human transmission arising from the unsafe consumption of fresh blood, raw milk or animal tissue.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "裂谷热",
+    "field": "prevention",
+    "content": "Public health messages for risk reduction should focus on the importance of personal and community protection against mosquito bites through the use of impregnated mosquito nets, personal insect repellent if available, light-coloured clothing (long-sleeved shirts and trousers) and by avoiding outdoor activity at peak biting times of the vector species.",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  }
+]

@@ -13,7 +13,6 @@ import argparse
 import json
 
 from langchain_core.messages import HumanMessage, SystemMessage
-
 from rag.common import build_llm, extract_urls, format_documents, load_vectorstore, search_with_relevance
 from rag.graph import run_rag_graph
 from rag.settings import MIN_RELEVANCE_SCORE, load_env

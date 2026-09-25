@@ -1,0 +1,138 @@
+[
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "Symptoms range from mild to severe and often include fever, runny nose, sore throat, muscle pain, headache, coughing, and fatigue.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "The time between exposure to the virus and development of symptoms (the incubation period) is one to four days, most commonly one to two days.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "The onset of symptoms is sudden, and initial symptoms are predominantly non-specific, including fever, chills, headaches, muscle pain, malaise, loss of appetite, lack of energy, and confusion.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "These are usually accompanied by respiratory symptoms such as a dry cough, sore or dry throat, hoarse voice, and a stuffy or runny nose.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "symptoms",
+    "content": "Diarrhea and vomiting can occur, particularly in children.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "transmission",
+    "content": "People who are infected can transmit influenza viruses through breathing, talking, coughing, and sneezing, which spread respiratory droplets and aerosols that contain virus particles into the air.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "transmission",
+    "content": "Respiratory droplets are relatively large and travel less than two meters before falling onto nearby surfaces.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "transmission",
+    "content": "Aerosols are smaller and remain suspended in the air longer, so they take longer to settle and can travel further.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "Frequent hand washing and covering one's mouth and nose when coughing and sneezing reduce transmission.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "Annual vaccination can help to provide protection against influenza.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "Vaccination is the primary and most effective way to prevent influenza and influenza-associated complications, especially for high-risk groups.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.95,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "prevention",
+    "content": "Infection control includes good personal health and hygiene habits such as not touching the eyes, nose or mouth, frequent hand washing, covering coughs and sneezes with a tissue or sleeve, avoiding close contact with sick people, and staying home when sick.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "treatment",
+    "content": "The disease can be treated with supportive measures and, in severe cases, with antiviral drugs such as oseltamivir.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "epidemiology",
+    "content": "In a typical year, five to 15 percent of the population contracts influenza.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "epidemiology",
+    "content": "There are 3 to 5 million severe cases annually, with up to 650,000 respiratory-related deaths globally each year.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "epidemiology",
+    "content": "In temperate regions, the number of influenza cases peaks during winter, whereas in the tropics, influenza can occur year-round.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  },
+  {
+    "disease": "流感",
+    "field": "epidemiology",
+    "content": "Since the late 1800s, pandemic outbreaks of novel influenza strains have occurred every 10 to 50 years.",
+    "source_url": "https://en.wikipedia.org/wiki/Influenza",
+    "confidence": 0.9,
+    "context": "extractor_agent"
+  }
+]

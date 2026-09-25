@@ -4,8 +4,7 @@ from __future__ import annotations
 
 import json
 import os
-import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 from models.run_context import RunContext
@@ -13,6 +12,7 @@ from models.schemas import DiseaseProfile, ExtractedFact
 from pipeline.extractor_agent import extract_json_from_text
 from pipeline.keyword_extract import TARGET_DISEASES
 from pipeline.validator import load_facts_from_dir
+
 from utu.agents import SimpleAgent
 
 MIN_SNIPPET = 20
@@ -158,7 +158,7 @@ class AggregatorAgent:
             }
 
         return {
-            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_at": datetime.now(UTC).isoformat(),
             "target_diseases": TARGET_DISEASES,
             "total_sources": len(sources),
             "sources": sources,
